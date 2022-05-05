@@ -4,7 +4,7 @@ Any user listed in /etc/passwd can be assigned as owner of a file.
 Any group listed in /etc/group can be assigned as the group of a file.
 
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
+Every file in Linux contains a set of permissions. There are separate permissions for reading, writing, and executing files (rwx)
 
 ## Exercise
 Create a text file.
