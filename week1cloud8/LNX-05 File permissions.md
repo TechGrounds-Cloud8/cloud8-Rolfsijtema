@@ -15,10 +15,10 @@ Change the owner of the file to a different user. If everything went well, you s
 Change the group ownership of the file to a different group.
 
 ### Sources
-[List your sources you used for solving the exercise]
+https://www.w3cschoool.com/linux-file-ownership
 
 ### Overcome challanges
-duidelijk gemaakt voor mijzelf dat de positie vanuit waar je wat doet heel belangrijk is.  dit zorgt vaak voor problemen.  aanmaken en toewijzen sudo" moet vanuit ROOT user rolf
+duidelijk gemaakt voor mijzelf dat de positie vanuit waar je wat doet heel belangrijk is.  dit zorgt vaak voor problemen.  aanmaken en toewijzen sudo" moet vanuit ROOT user rolf  
 
 ### Results
 **Create a text file**
