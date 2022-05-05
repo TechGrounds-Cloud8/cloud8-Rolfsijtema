@@ -6,7 +6,7 @@ WYSIWYG - An acronym for What You See Is What You Get, is a system in which edit
 
 WYSIWYM - What You See Is What You Mean is a paradigm for editing a structured document. It is an adjunct to the better-known WYSIWYG (What You See Is What You Get) paradigm, which displays the result of a formatted document as it will appear on screen or in print—without showing the descriptive code underneath
 
-Exercise
+
 Sources
 https://www.youtube.com/watch?v=pTCROLZLhDM
 https://www.markdownguide.org/cheat-sheet/
@@ -15,6 +15,8 @@ https://www.markdownguide.org/cheat-sheet/
 Overcome challanges
 Markdown kun je als extension enablelen binnen in VScode. Wanneer je je tekst wilt aanpassen kan dit direct in VScode gedaan worden ipv dat je codes hekjes e.d. zelf moet gaan uittikken. 
 
+
+Exercise
 Voorbeeld Markdown
 ![foto](../00_includes/SCHIP.png)
 
