@@ -1,22 +1,32 @@
-[Git Markdown]
+[Markdown]
 Key terminology
+
 Markdown - Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
 
-WYSIWYG - An acronym for What You See Is What You Get, is a system in which editing software allows content to be edited in a form that resembles its appearance when printed or displayed as a finished product
-
-WYSIWYM - What You See Is What You Mean is a paradigm for editing a structured document. It is an adjunct to the better-known WYSIWYG (What You See Is What You Get) paradigm, which displays the result of a formatted document as it will appear on screen or in print—without showing the descriptive code underneath
+WYSIWYM - What You See Is What You Mean is a paradigm for editing a structured document. on screen or in print—without showing the descriptive code underneath
 
 
 Sources
-https://www.youtube.com/watch?v=pTCROLZLhDM
-https://www.markdownguide.org/cheat-sheet/
 
+https://www.youtube.com/watch?v=HUBNt18RFbo
+
+WYSIWYG explained
+https://www.youtube.com/watch?v=8oCDsBX2gL4 or
+
+https://www.youtube.com/watch?v=fdqVNKG7iyk
+
+cheatsheet
+http://www.betterbuilt.com/html/
+
+cheatsheet Markdown
+https://www.markdownguide.org/basic-syntax/
 
 Overcome challanges
-Markdown kun je als extension enablelen binnen in VScode. Wanneer je je tekst wilt aanpassen kan dit direct in VScode gedaan worden ipv dat je codes hekjes e.d. zelf moet gaan uittikken. 
 
+VScode heeft 2 opties,  je kunt via een cheat sheet met de codes * * ** ** je tekstregels gaan schrijven, maar er is ook een axtension binnen VScode welke je kunt enablen en zo letterlijk bold/italic aanklikken en de tekstkleur aanpassen.
 
 Exercise
+
 Voorbeeld Markdown
 ![foto](../00_includes/SCHIP.png)
 
