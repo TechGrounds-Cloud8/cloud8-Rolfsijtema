@@ -1,16 +1,17 @@
-# [Subject]
-[Give a short summary of the subject matter.]
+# [Subject]Processes in Linux can be divided into three categories: Daemons, Services, and Programs.
+A daemon runs in the background and is non-interactive. A Service responds to requests from programs. A service may be interactive. A program is run and used by users (e.g. Vim).
 
-## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
+In order to connect to remote Linux machines (virtual or not), you can use ssh (secure shell). To make this connection to your machine possible, you’ll have to start the ssh service by starting the ssh daemon. Before ssh there was telnet, which basically does the same thing, except the connection is not encrypted, so it is not secure. In this exercise we will use telnet for the sake of not messing with our ssh connection, but it is not recommended for use.
 
-## Exercise
+A process is an instance of running code. All code is stored in files somewhere on the system. In order to find these files, Linux will look in the $PATH variable (more about that in a later exercise). Every process has its own PID (Process ID) number.
+
+
 ### Sources
 https://www.javatpoint.com/linux-telnet-command
 https://forum.lowyat.net/topic/346775
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+weinig uitdaging daar het beperkt aantal commands zijn, wel moeite na het installeren om weer terug te komen bij de root.
 
 ### Results
 
@@ -54,4 +55,4 @@ Use 'sudo apt autoremove' to remove it.
 rolf@Nest-Ro-Sijtema:~$ 
 rolf@Nest-Ro-Sijtema:~$ ps ax| grep telnet
    9683 pts/1    S+     0:00 grep --color=auto telnet
-rolf@Nest-Ro-Sijtema:~$ 
+rolf@Nest-Ro-Sijtema:~$
