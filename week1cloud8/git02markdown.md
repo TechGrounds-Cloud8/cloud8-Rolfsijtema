@@ -35,4 +35,3 @@ Voorbeeld Markdown
 ##  *Een prachtig schilderij*
 
 ![screenshot](../00_includes/markdownsyntax.png)
-
