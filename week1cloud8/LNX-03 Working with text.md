@@ -1,5 +1,6 @@
 # [Subject]
-[Give a short summary of the subject matter.]
+Het oefen in het aanmaken van een input folder, en output,  tekst aanmaken en uitlezen. 
+
 
 ## Key terminology
 [Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
@@ -12,6 +13,26 @@
 [Give a short description of your challanges you encountered, and how you solved them.]
 
 ### Results
+
+rolf@Nest-Ro-Sijtema:~$ man sudo_root
+rolf@Nest-Ro-Sijtema:~$ ls
+rolf@Nest-Ro-Sijtema:~$ sudo ls
+rolf@Nest-Ro-Sijtema:~$ ls
+rolf@Nest-Ro-Sijtema:~$ mkdir techgrounds
+rolf@Nest-Ro-Sijtema:~$ ls
+techgrounds
+rolf@Nest-Ro-Sijtema:~$ sudo su
+root@Nest-Ro-Sijtema:/home/rolf# ls
+techgrounds
+root@Nest-Ro-Sijtema:/home/rolf# cat > rolf.txt I am a lost panda
+cat: I: No such file or directory
+cat: am: No such file or directory
+cat: a: No such file or directory
+cat: lost: No such file or directory
+cat: panda: No such file or directory
+root@Nest-Ro-Sijtema:/home/rolf# cat > rolf.txt
+I am a lost panda
+
 rolf@Nest-Ro-Sijtema:~$ cd techgrounds
 rolf@Nest-Ro-Sijtema:~/techgrounds$ nano clitekst.txt
 rolf@Nest-Ro-Sijtema:~/techgrounds$ car "clitekst.txt"

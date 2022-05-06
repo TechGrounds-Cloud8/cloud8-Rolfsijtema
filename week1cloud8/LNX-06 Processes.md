@@ -56,4 +56,4 @@ rolf@Nest-Ro-Sijtema:~$
 rolf@Nest-Ro-Sijtema:~$ ps ax| grep telnet
    9683 pts/1    S+     0:00 grep --color=auto telnet
 rolf@Nest-Ro-Sijtema:~$
-end
+end tellnet is: sudo systemctl stop telnet 
