@@ -5,13 +5,18 @@ In order to connect to remote Linux machines (virtual or not), you can use ssh (
 
 A process is an instance of running code. All code is stored in files somewhere on the system. In order to find these files, Linux will look in the $PATH variable (more about that in a later exercise). Every process has its own PID (Process ID) number.
 
+inet is a listener
+tellnet deamon will never be found without a command. 
+
 
 ### Sources
 https://www.javatpoint.com/linux-telnet-command
 https://forum.lowyat.net/topic/346775
 
 ### Overcome challanges
-weinig uitdaging daar het beperkt aantal commands zijn, wel moeite na het installeren om weer terug te komen bij de root.
+ik weet niet of ik het programma daadwerkelijk heb gestopt. 
+
+een var is een 
 
 ### Results
 
