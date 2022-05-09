@@ -63,7 +63,9 @@ rolf@Nest-Ro-Sijtema:/home$
 
 Register the script in your crontab so that it runs every minute.
 
-3uur besteed met het team niet opgelost, ook tom gevraagd niet gelukt. 
+3uur besteed met het team niet opgelost, ook Tom gevraagd niet gelukt. 
 
 het kost teveel tijd en deadline is verstreken. 
+
+https://linuxize.com/post/cron-jobs-every-5-10-15-minutes/  deze link gaat over de puntjes welke de runtijd aangeeft, day minute week, hour.  krijg het helaas niet voor elkaar. 
 
