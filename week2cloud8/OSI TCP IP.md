@@ -40,25 +40,39 @@ Hier worden de electrische verbindingen gemaakt, dus letterlijk de data via de k
 electrical Mechanical Radiosignals.   Er zijn standaard protocols hiervoor bij het ontwerpen van een nieuw apparaat. "waar moeten ze aan voldoen om te kunnen communiceren"
 ![screenshot](../00_includes/Electrical%20divices.png)
 
+Onderwerp: 
 The TCP/IP model and its uses.
 
+TCP  Transmission Control Protocol
+Ip: Internet Protocol
 TCP/IP een model om het internet en alles er omheen te standariseren. 
 ![screenshot](../00_includes/TCP%3AIP%20Layers.png)
 
  TCP/IP model is geupdate: er is 1 laag bijgekomen 
  [Screenshot](../00_includes/TCP%3AIP%20Layers.png)
 
-Alle lagen met hun protocols:
+Alle lagen met hun hun protocols:
 ![screenshot](../00_includes/Layers%20met%20protocols.png)
-5: 
+
+Layers/protocols: 
+
+5: Application Layer: programma's om de data aan te maken welke verzonden dient te worden. 
+
+4:Transport layer: TCP Data: data transportlayer waar de verzending klaargemaakt wordt.
+
+3 Network Link Layer: Beheert het transport van data pakkage: IP TCP Data  "Packet" is klaar voor verzending er wordt een verbinding gemaakt met een IP adres. IP-protocol en TCP protocol maken samen de verbinding, TCP is de technology in jou computer/telefoon die het mogelijk maakt om de verbinding te maken. adressing/routing/en pakkage. 
+
+2 Data Link Layer: IP TCP Data Ethernet: maakt de verbinding tussen de data en de fysiek.  Het omzetten van een file naar de printer bijvoorbeeld. 
+
+1 Link Layer  kabels/wifi/enz.. hardware verbindingen maken. 
  
 
 
-
+ 
 ### Sources
 OSI model: https://www.youtube.com/watch?v=Ilk7UXzV_Qc
 
-TCP/IP   https://www.youtube.com/watch?v=OTwp3xtd4dg
+TCP/IP   https://www.youtube.com/watch?v=tnAW02zvFhU
 
 ### Overcome challanges
 [Give a short description of your challanges you encountered, and how you solved them.]
