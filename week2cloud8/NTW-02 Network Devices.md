@@ -33,7 +33,6 @@ Understanding what thing or server or machine makes the DHCP work.
 
 ### Results
 Name and explain network devices: 
-Router: 
 
 Hub:
 A Hub receives data and copy's this data to all the other ports wich are connected. A hub is does not add or change anything to the data. A downside to a Hub is: it always sends data to all connected ports/divices even when it is not ment to do, this cost more bandwith and also costs incase of cloudnetworks. 
