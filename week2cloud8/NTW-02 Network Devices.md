@@ -15,7 +15,7 @@ OSI is the system that creates the route/data/way of communicating to the hardwa
 
 2: Benoem en beschrijf de functies van veel voorkomend netwerkapparatuur
 De meeste routers hebben een overzicht van alle verbonden apparaten, vind deze lijst. Welke andere informatie heeft de router over aangesloten apparatuur?
-Waar staat je DHCP server op jouw netwerk? Wat zijn de configuraties hiervan?
+Waar staat je DHCP server op jouw netwerk? 
 
 ### Sources
 Hub Switches Router diviced
@@ -23,6 +23,9 @@ https://www.youtube.com/watch?v=1z0ULvg_pW8
 
 DHCP explained:
 https://www.youtube.com/watch?v=S43CFcpOZSI
+
+DHCP config:
+https://www.youtube.com/watch?v=b_9Dg0QYJUg
 
 ### Overcome challanges
 [Give a short description of your challanges you encountered, and how you solved them.]
@@ -61,11 +64,22 @@ It shows the networkname  and it's IP adres to where outside networks can connec
 (no screenshot because this is private information)
 
 Waar staat je DHCP server op jouw netwerk?
-![DHCP](../00_includes/dhcp.png)
+The DHCP server is build within a Internet-server, this can be Windows server.
+Dynamic Host Configuration Protocol
+Also on you networkcard is a DHCP configurator.
 
 A connected PC on the network ask for a DHCP adres from the router, without this adres the computer has no adres or connection to the internet or router.
 
+![DHCP](../00_includes/dhcp.png)
+
+
 ![DHCP](../00_includes/DHCP%20PORT.png)
+
+Wat zijn de configuraties hiervan?
+
+![dhcpconfig](../00_includes/DHCPconfig2.png)
+![DHCPconfig](../00_includes/DHCPconfig.png)
+
 
 
 
