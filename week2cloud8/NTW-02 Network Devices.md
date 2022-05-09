@@ -39,9 +39,10 @@ A switch looks like a HUB, except it is intelligent, it can add MAC-adresses to 
 
 Router:
 A router send and receives data pakages within or outside the home network, it can also send data to another network. It automatically receives the data ment for the home network.   All routers have there own IPadres 192.168.. and a (subnet mask) 225.225
-![router](../00_includes/Router.png)
+![router](../00_includes/router.png)
 
-All network devices belong to Layer 1 within OSI.  
+All network devices belong to Layer 1 within OSI. 
+
 
 
 
