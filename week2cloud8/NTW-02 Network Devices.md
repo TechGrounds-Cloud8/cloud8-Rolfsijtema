@@ -18,8 +18,11 @@ De meeste routers hebben een overzicht van alle verbonden apparaten, vind deze l
 Waar staat je DHCP server op jouw netwerk? Wat zijn de configuraties hiervan?
 
 ### Sources
-Hub Switches Router
+Hub Switches Router diviced
 https://www.youtube.com/watch?v=1z0ULvg_pW8
+
+DHCP explained:
+https://www.youtube.com/watch?v=S43CFcpOZSI
 
 ### Overcome challanges
 [Give a short description of your challanges you encountered, and how you solved them.]
@@ -42,6 +45,27 @@ A router send and receives data pakages within or outside the home network, it c
 ![router](../00_includes/router.png)
 
 All network devices belong to Layer 1 within OSI. 
+
+Vind Lijst met apparaten:
+Aiport Router
+Airport expres1
+Airport expres2
+Iphone
+etc..
+
+Welke andere informatie heeft de router over aangesloten apparatuur?
+
+The router show's MAC-adres of each connected devices within the network. 
+It shows the networkname  and it's IP adres to where outside networks can connect.
+
+(no screenshot because this is private information)
+
+Waar staat je DHCP server op jouw netwerk?
+![DHCP](../00_includes/dhcp.png)
+
+A connected PC on the network ask for a DHCP adres from the router, without this adres the computer has no adres or connection to the internet or router.
+
+![DHCP](../00_includes/DHCP%20PORT.png)
 
 
 

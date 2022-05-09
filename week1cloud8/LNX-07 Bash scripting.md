@@ -28,7 +28,7 @@ bash scripting: https://www.youtube.com/watch?v=2hz7-v2f1sA
 https://linuxize.com/post/how-to-install-apache-on-ubuntu-18-04/#
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+het toevoegen van het Path/command dat er onder getal 5 een melding komt met: number to low. 
 
 ### Results
 Create a directory called ‘scripts’. Place all the scripts you make in this directory.
@@ -137,4 +137,21 @@ rolf@Nest-Ro-Sijtema:~/scripts$ ls
 random.sh  scriptstext.txt
 rolf@Nest-Ro-Sijtema:~/scripts$ cat scriptstext.txt
 7
+rolf@Nest-Ro-Sijtema:~/scripts$ 
+
+
+deel2  als getal onder de 5 is dan de melding smaller than5
+
+rolf@Nest-Ro-Sijtema:~/scripts$ ./random.sh
+7
+8
+
+
+7
+9
+4
+9
+Value is smaller than 5
+10
+9
 rolf@Nest-Ro-Sijtema:~/scripts$ 
