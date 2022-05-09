@@ -77,10 +77,14 @@ A connected PC on the network ask for a DHCP adres from the router, without this
 ![DHCP](../00_includes/DHCP%20PORT.png)
 
 Wat zijn de configuraties hiervan?
+In a homenetwork is DHCP automatic
+In big company's it could be done manually, static IP. 
+IPv4 DHCP is build in ur router
 
 ![dhcpconfig](../00_includes/DHCPconfig2.png)
 ![DHCPconfig](../00_includes/DHCPconfig.png)
 
+ipconfig /all | find /i "dhcp server"
 
 
 
