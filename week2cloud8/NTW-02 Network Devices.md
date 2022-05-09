@@ -5,6 +5,7 @@ router
 switch
 repeaters
 access point 
+HUB
 
 ## Key terminology
 Networkdivices are hardware products.
@@ -28,7 +29,7 @@ DHCP config:
 https://www.youtube.com/watch?v=b_9Dg0QYJUg
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Understanding what thing or server or machine makes the DHCP work. 
 
 ### Results
 Name and explain network devices: 
