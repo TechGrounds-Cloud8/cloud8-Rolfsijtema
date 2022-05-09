@@ -75,7 +75,7 @@ OSI model: https://www.youtube.com/watch?v=Ilk7UXzV_Qc
 TCP/IP   https://www.youtube.com/watch?v=tnAW02zvFhU
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+verschil begrijpen tussen OSI TCP/IP
 
 ### Results
 zie bovenstaande info als uitwerking opdracht. 
