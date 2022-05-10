@@ -16,6 +16,8 @@ Look into wireshark and install this program. Try and capture a bit of your own 
 
 ### Sources
 [https://www.google.com/search?q=how+introduce+your+own+protocol&ei=IRp6YqalFsvxkwXv8aXYAQ&ved=0ahUKEwjmud6JutT3AhXL-KQKHe94CRsQ4dUDCA4&uact=5&oq=how+introduce+your+own+protocol&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQjwlY1Atg5BJoAXABeACAAVCIAZcCkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz
+Wireshark.org to install
+How to use Wireshark link: https://www.youtube.com/watch?v=Hl0IpoS503A
 
 ### Overcome challanges
 what is needed to make ur own protocol, difficult to find this answer. 
@@ -30,7 +32,26 @@ Who determines Internet Protocol?
 The Internet Assigned Numbers Authority (IANA) coordinates the DNS, IP addressing, and other internet protocol resources. All domain names and IP addresses are allocated from IANA. Founded in the early '70s and led by John Postel, one of the fathers of the DNS, today it operates as a subsidiary organization of ICANN.
 
 What is the need of protocol?
-Protocols are rules which are needed so that unanimity and quality of a product can be maintained. Answer: Protocols are the set of rules used by the networks to identify how data is represented and communicated. It also helps in securing the data and checking and correcting errors.
+There are Internet Protocols, Networkprotocols
+Requirements for Network Protocol
+A good network protocol will meet the following requirements −
+Addressing − A unique address is assigned (names can also be assigned to computers) to each computer. This address is used in the communication packet.
+Data Exchange Format − Data should be formatted in well-defined packets and sent across the network. Data packet header area contains the fields with relevance to the operation of the protocol. Payload contains the message sent by the application running on the computers.
+Error Recovery − Error detection is must on networks where data corruption is possible. Network protocols suggest the use of CRC to detect and recover network errors.
+Routing − When systems are not directly connected, intermediary systems forward messages to the receiver. These are called routers.
+
+Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
+![wire1](../00_includes/Wireshark1.png)
+![wire2](../00_includes/Wireshark2.png)
+![wire3](../00_includes/Wireshark3.png)
+
+
+
+
+
+
+
+
 
 
 
