@@ -18,9 +18,10 @@ Look into wireshark and install this program. Try and capture a bit of your own 
 [https://www.google.com/search?q=how+introduce+your+own+protocol&ei=IRp6YqalFsvxkwXv8aXYAQ&ved=0ahUKEwjmud6JutT3AhXL-KQKHe94CRsQ4dUDCA4&uact=5&oq=how+introduce+your+own+protocol&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQjwlY1Atg5BJoAXABeACAAVCIAZcCkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz
 Wireshark.org to install
 How to use Wireshark link: https://www.youtube.com/watch?v=Hl0IpoS503A
+https://www.tutorialspoint.com/what-are-the-network-protocol-requirements-in-the-communication-process  
 
 ### Overcome challanges
-what is needed to make ur own protocol, difficult to find this answer. 
+what is needed to make ur own protocol, difficult to find this answer. Patrick looked at this question in a diffirent way and found the excact parts that are needed. 
 
 ### Results
 Installed Wireshark, and fixed the Chmod issiue by installen an update. 
@@ -43,6 +44,7 @@ Routing − When systems are not directly connected, intermediary systems forwar
 Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
 ![wire1](../00_includes/Wireshark1.png)
 ![wire2](../00_includes/Wireshark2.png)
+next picture shows HTTP protocol movement on netwerk. 
 ![wire3](../00_includes/Wireshark3.png)
 
 
