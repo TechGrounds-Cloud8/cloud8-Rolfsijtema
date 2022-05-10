@@ -1,4 +1,4 @@
-# [Subject]
+# [Protocols]
 Learning about protocols, how to use wireshark and readout ur own network protocols
 
 ## Key terminology
@@ -15,10 +15,12 @@ Look into wireshark and install this program. Try and capture a bit of your own 
 
 
 ### Sources
-[https://www.google.com/search?q=how+introduce+your+own+protocol&ei=IRp6YqalFsvxkwXv8aXYAQ&ved=0ahUKEwjmud6JutT3AhXL-KQKHe94CRsQ4dUDCA4&uact=5&oq=how+introduce+your+own+protocol&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQjwlY1Atg5BJoAXABeACAAVCIAZcCkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz
+[https://www.google.com/search?q=how+introduce+your+own+protocol&ei=IRp6YqalFsvxkwXv8aXYAQ&ved=0ahUKEwjmud6JutT3AhXL-KQKHe94CRsQ4dUDCA4&uact=5&oq=how+introduce+your+own+protocol&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQjwlY1Atg5BJoAXABeACAAVCIAZcCkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz]
+
 Wireshark.org to install
-How to use Wireshark link: https://www.youtube.com/watch?v=Hl0IpoS503A
-https://www.tutorialspoint.com/what-are-the-network-protocol-requirements-in-the-communication-process  
+How to use Wireshark link: [https://www.youtube.com/watch?v=Hl0IpoS503A]
+
+[https://www.tutorialspoint.com/what-are-the-network-protocol-requirements-in-the-communication-process]
 
 ### Overcome challanges
 what is needed to make ur own protocol, difficult to find this answer. Patrick looked at this question in a diffirent way and found the excact parts that are needed. 
