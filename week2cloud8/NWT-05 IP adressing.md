@@ -1,5 +1,5 @@
 # [IP adressen]
-[Give a short summary of the subject matter.]
+How are IPadresses created. How did they excisted, are there enough? IPV6 or NAT inside IPV4 
 
 ## Key terminology
 
@@ -10,6 +10,7 @@ NAT
 Statische en dynamische adressen
 
 ## Exercise
+See results 
 IP adressen: 
 is a logic adres that can be connected to a networkdivices such as a PC or Router 192.168.0.1
 IPv4: ip4 has 32bits but options are ended. so they invented ipv6
@@ -40,9 +41,8 @@ Private adres changing on mobile phone
 [https://www.quora.com/Does-your-IP-address-change-using-a-mobile-phone-with-data]
 
 
-
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+difficult to change IP inside router enviroment. 
 
 ### Results
 1 Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.
