@@ -49,5 +49,8 @@ Base 16 is called the hexadecimal system
 In the links to youtube you find an excact explanation of a base16 translation
 [https://www.youtube.com/watch?v=4EJay-6Bioo]
 
-HEX16 "number 224" "E14" explained   after 0123456789 you add: ABCDE
+HEX16 "number 224" "E0" explained   after 0123456789 you add: ABCDE
+In binary it shows: 
+
+![224](../00_includes/BASE16-224.png)
 ![base16](../00_includes/BASE16.png)
