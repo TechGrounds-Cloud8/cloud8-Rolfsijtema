@@ -1,5 +1,5 @@
 # [Subject]
-[Give a short summary of the subject matter.]
+Learning about protocols, how to use wireshark and readout ur own network protocols
 
 ## Key terminology
 A network protocol is a agreement, how things should be developed, if everyone build there things around these protocols it will usually work on the IT/www...
