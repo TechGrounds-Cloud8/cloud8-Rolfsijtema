@@ -1,5 +1,5 @@
 # [IP adressen]
-How are IPadresses created. How did they excisted, are there enough? IPV6 or NAT inside IPV4 
+How are IPadresses created. How did they excisted, are there enough? NAT on IPV4 is a solution, or!  IPV6 ! 
 
 ## Key terminology
 
