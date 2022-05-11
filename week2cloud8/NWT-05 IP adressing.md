@@ -59,7 +59,9 @@ the public ip adres is the same for all devices within the home network. The rou
 Does changing IP address affect anything?
 Keep in mind, changing your IP address will temporarily disrupt whatever internet-connected services or programs you're using on your device. There's no harm done, but it's going to have the same effect as if you'd momentarily lost your Wi-Fi.
 
-5 Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk. Wat gebeurt er dan?
+5 Change the IPadress of your mobile device to the one of your Computer. What happends?
+
+Your Mobile device wil not be reachable anymore, no internet connection. 
 
 your IP address changes on any network you're using either being mobile or Wi-Fi.
 Your cellular carrier will assign a temporary IP address to your device whenever you begin a new data session, or periodically refresh the IP address assigned if your device connects continuously.
