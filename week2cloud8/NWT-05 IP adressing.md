@@ -50,9 +50,7 @@ Mobile:     192.168.x.xx   Internal IPadres, only public true the router.
 Computer:   192.168.x.xxx  Pulic adres
 
 2 Zijn de adressen hetzelfde of niet? Leg uit waarom.
-No, they are diffirent because they are personal to each device.
-Mobile IP is internal from the router.
-Computer is public IP.
+the public ip adres is the same for all devices within the home network. The router creates this public IP. 
 
 3 Verander het privé IP adres van je mobiel naar dat van je laptop. Wat gebeurt er dan?
 
