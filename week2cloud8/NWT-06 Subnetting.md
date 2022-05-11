@@ -45,4 +45,7 @@ Does the compant need to add more hosts because of growth
 Are there temparerely more hosts needed. 
 below you find the network results diagram.
 
-![subnetdiagram](../00_includes/SubnetDiagram.png)
+Because all hosts are part of 1 network enviroment it is important to note that there may not be duplucations of IPadresses.
+
+![subnetdiagram](../00_includes/DiagramCloud.png)
+
