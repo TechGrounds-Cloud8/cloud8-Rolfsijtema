@@ -49,3 +49,4 @@ Because all hosts are part of 1 network enviroment it is important to note that 
 
 ![subnetdiagram](../00_includes/DiagramCloud.png)
 
+s
