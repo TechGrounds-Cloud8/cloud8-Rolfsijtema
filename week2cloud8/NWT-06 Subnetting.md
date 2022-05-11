@@ -35,25 +35,14 @@ Subnet calculator
 Subnet explained
 [https://www.youtube.com/watch?v=s_Ntt6eTn94]
 
-
-
-
-
 ### Overcome challanges
-making all connections in the network by drawing, and put the IP bits right in place
+Making it clear for myself how the structure works from a cloud. Find the logics about calculating Subnet IP. Understand wich class and amount of Host. "+2" 
 
 ### Results
-The amount of subnet IPrange depends on cost or growth of the company, when its about cost take the amount that is in need. when the company is growing add more. 
+The amount of subnet IPrange depends on:
+Being cost effective. 
+Does the compant need to add more hosts because of growth
+Are there temparerely more hosts needed. 
+below you find the network results diagram.
+
 ![subnetdiagram](../00_includes/SubnetDiagram.png)
-
-
-Maak een netwerkarchitectuur die voldoet aan de volgende eisen:
-
-virtual private cloud, met subnetten  private is binnen netwerk en public is bij website.  binnen je netwerk kun je aparte security groups maken, wie kan waar wel of niet in. 
-
-1 private subnet dat alleen van binnen het LAN bereikbaar is. Dit subnet moet minimaal 15 hosts kunnen plaatsen.
-
-1 private subnet dat internet toegang heeft via een NAT gateway. Dit subnet moet minimaal 30 hosts kunnen plaatsen (de 30 hosts is exclusief de NAT gateway).
-
-1 public subnet met een internet gateway. Dit subnet moet minimaal 5 hosts kunnen plaatsen (de 5 hosts is exclusief de internet gateway).
-Plaats de architectuur die je hebt gemaakt inclusief een korte uitleg in de Github repository die je met de learning coach hebt gedeeld.
