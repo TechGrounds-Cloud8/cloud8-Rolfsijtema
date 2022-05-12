@@ -41,7 +41,7 @@ PORT   STATE SERVICE
 53/tcp open  domain
 
 Analyse what happens when you open an internet browser:
-There is a connection made. 
+There is a new connection made. 
 Handshakes are made in TCP,so you can see the "ACK" between my own IP adres and the source IP.   
 Wireshark filter set on TCP when this is the protocol for https.   
 You can see the port used for connection
