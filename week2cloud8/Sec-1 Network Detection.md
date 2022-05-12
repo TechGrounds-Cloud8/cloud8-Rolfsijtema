@@ -25,7 +25,7 @@ Nmap torturial by NetworkChuck
 https://www.youtube.com/watch?v=4t4kBkMsDbQ
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Finding right commands in Linux.
 
 ### Results
 Note: this is not a screenshot because i want to be able to edit.XX my private IPadres.
