@@ -29,20 +29,43 @@ Installeer een webserver op je VM.
 Apache2
 Bekijk de standaardpagina die met de webserver geïnstalleerd is.
 Stel de firewall zo in dat je webverkeer blokkeert, maar wel ssh-verkeer toelaat.
-Controleer of de firewall zijn werk doet.
-
+Controleer of de firewall zijn werk doet. 
 
 
 ### Sources
 types of fire
 [https://www.techtarget.com/searchsecurity/feature/The-five-different-types-of-firewalls]
-[https://www.centos.org/]
-[https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux]
+[https://www.centos.org/][https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux]
 Install firewall on Linux
 [https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-20-04/#:~:text=Ubuntu%20ships%20with%20a%20firewall,as%20the%20name%20says%2C%20uncomplicated.]
+alow ports
+[https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands]
 
 ### Overcome challanges
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+show apache2 standard page
+and
+Activate ufw 
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+Install webserver Linux:
+![webserver](../00_includes/WebserverApache2.png)
+
+NMAP 10.126.176.128/24  check ports open
+![nmapip](../00_includes/nmap.png)
+
+
+![ufwinstall](../00_includes/UFW.png)
+
+Show standard page Apache2
+![pagina](../00_includes/Standard%20page%20Apache2.png)
+
+Use ufw firewall to block-webtraffic.
+
+Allow SSH-traffic SSH port 22 alow
+![ssh allow](../00_includes/portstatus.png)
+
+Standard page Apache2 not reachable Port 80 HTTP blocked
+![apache2block](../00_includes/Pagina%20apache%20niet%20bereikbaar.png)
+
+HTTP allowed again: 
+![allow](../00_includes/Allow%20http%20again.png)
