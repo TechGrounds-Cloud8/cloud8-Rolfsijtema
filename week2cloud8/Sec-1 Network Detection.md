@@ -13,18 +13,18 @@ Wireshark:
 Wireshark is a network protocol analyzer, or an application that captures packets from a network connection, such as from your computer to your home office or the internet. Packet is the name given to a discrete unit of data in a typical Ethernet network. Wireshark is the most often-used packet sniffer in the world.
 
 ## Exercise
-Study
+Study Nmap/Wireshark
 Scan the network of your Linux machine using nmap. What do you find?
+
 Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an internet browser. (Tip: you will find that Zoom is constantly sending packets over the network. You can either turn off Zoom for a minute, or look for the packets sent by the browser between the packets sent by Zoom.)
 
 
 
 ### Sources
-Nmap torturial
+Nmap torturial by NetworkChuck
 https://www.youtube.com/watch?v=4t4kBkMsDbQ
 
 ### Overcome challanges
 [Give a short description of your challanges you encountered, and how you solved them.]
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
