@@ -54,3 +54,4 @@ In binary it shows:
 
 ![224](../00_includes/BASE16-224.png)
 ![base16](../00_includes/BASE16.png)
+end
