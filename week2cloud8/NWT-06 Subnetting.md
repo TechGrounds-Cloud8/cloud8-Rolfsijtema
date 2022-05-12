@@ -1,6 +1,7 @@
 # [Subnetting]
 When 2 or more divices are connected we call it a Local Area Network (LAN), every host(device) has its own adres in this range. A Subnet Mask helps to (prefix) all this adresses, how many "bits" of the networkadres are reserved for the host/devices. A subnet is a smaller network within a bigger network. the subnet has a larger prefix than the larger network it is connected to. Subnet logically isolates the devices/host. 
 
+
 ## Key terminology
 CIDR notation: 
 (Classless Inter-Domain Routing) is an alternate method of representing a subnet mask. It is simply a count of the number of network bits (bits that are set to 1) in the subnet mask. And make IPadressen available. 
@@ -12,12 +13,16 @@ A subnet mask, however, differentiates between the portion of an IP address that
 ![subnet](../00_includes/subnet%20mask.png)
 ![subnetip](../00_includes/subnetipadres.png)
 
+
 Prefix:
 Prefix is a measurement to quantify large number. In networking, prefix is used to quantify large number of hosts/networks - 10.0.0.0/8 and 10.0.0.0/24 is a prefix. My definition of BGP Prefix is a large number of networks learned via BGP Routing Protocol.
 
 Bits:
 Image result for bits in networking
 The terms bits and bytes in computer networking refer to standard units of digital data transmitted over network connections. There are 8 bits for every 1 byte.
+
+Extra note: DHCP creates: Local IPadresses
+Your service provider creates Public IPadresses.
 
 ## Exercise
 Design a network with the following parts:
