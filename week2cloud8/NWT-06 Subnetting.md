@@ -47,6 +47,4 @@ below you find the network results diagram.
 
 Because all hosts are part of 1 network enviroment it is important to note that there may not be duplucations of IPadresses.
 
-![subnetdiagram](../00_includes/DiagramCloud.png)
-
-s
+![subnetdiagram](../00_includes/SubnetDiagram.png)
