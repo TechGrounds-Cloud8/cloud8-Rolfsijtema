@@ -3,7 +3,7 @@ Analyse your network using Nmap, and use Wireshark to find out what happends whe
 
 ## Key terminology
 Nmap (Network Mapper)
-Nmap is now one of the core tools used by network administrators to map their networks. The program can be used to find live hosts on a network, perform port scanning, ping sweeps, OS detection, and version detection.
+Nmap is a network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection.
 
 Hackers / security:
 Why do hackers use Nmap?
@@ -28,3 +28,21 @@ https://www.youtube.com/watch?v=4t4kBkMsDbQ
 [Give a short description of your challanges you encountered, and how you solved them.]
 
 ### Results
+Note: this is not a screenshot because i want to be able to edit.XX my private IPadres.
+
+Scan network NMAP: 
+rolf@Nest-Ro-xxxxx:~$ nmap 10.1xx.xxx.x
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-12 09:54 UTC
+Nmap scan report for _gateway.lxd (10.126.176.1)
+Host is up (0.00018s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+53/tcp open  domain
+
+Analyse what happens when you open an internet browser:
+Handshakes are made in TCP, (UDP not) so you can see the "ACK" between my own IP adres and the source IP.  There is a connection made.  
+Wireshark filter set on TCP when this is the protocol for https.  
+![screenwire](../00_includes/Wiresharksecurity1.png)
+
+
