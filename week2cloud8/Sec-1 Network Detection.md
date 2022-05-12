@@ -41,8 +41,11 @@ PORT   STATE SERVICE
 53/tcp open  domain
 
 Analyse what happens when you open an internet browser:
-Handshakes are made in TCP, (UDP not) so you can see the "ACK" between my own IP adres and the source IP.  There is a connection made.  
-Wireshark filter set on TCP when this is the protocol for https.  
+There is a connection made. 
+Handshakes are made in TCP,so you can see the "ACK" between my own IP adres and the source IP.   
+Wireshark filter set on TCP when this is the protocol for https.   
+You can see the port used for connection
+Package information
 ![screenwire](../00_includes/Wiresharksecurity1.png)
 
 
