@@ -53,19 +53,22 @@ Install webserver Linux:
 NMAP 10.126.176.128/24  check ports open
 ![nmapip](../00_includes/nmap.png)
 
-
 ![ufwinstall](../00_includes/UFW.png)
 
 Show standard page Apache2
+
 ![pagina](../00_includes/Standard%20page%20Apache2.png)
 
 Use ufw firewall to block-webtraffic.
 
 Allow SSH-traffic SSH port 22 alow
+
 ![ssh allow](../00_includes/portstatus.png)
 
 Standard page Apache2 not reachable Port 80 HTTP blocked
+
 ![apache2block](../00_includes/Pagina%20apache%20niet%20bereikbaar.png)
 
 HTTP allowed again: 
+
 ![allow](../00_includes/Allow%20http%20again.png)
