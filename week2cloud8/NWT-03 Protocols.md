@@ -7,6 +7,8 @@ fire and forget: TCP handshake is more reliable protocol to send  data.
 UDP is much faster but less reliable. 
 HTTPS  and SSH have there own portnumbers. 
 
+3way handshake:
+![handshake](../00_includes/3wayHandshake.png)
 ## Exercise
 Identify several other protocols and their associated OSI layer. Name at least one for each layer.
 Figure out who determines what protocols we use and what is needed to introduce your own protocol.
