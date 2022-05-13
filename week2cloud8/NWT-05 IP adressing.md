@@ -61,7 +61,7 @@ Keep in mind, changing your IP address will temporarily disrupt whatever interne
 
 5 Change the IPadress of your mobile device to the one of your Computer. What happends?
 
-Your Mobile device wil not be reachable anymore, no internet connection. 
+Your Mobile device wil not be reachable anymore, no internet connection. In some cases, there is a slow connection to the internet, this depends how the router reacts to this issiue. 
 
 your IP address changes on any network you're using either being mobile or Wi-Fi.
 Your cellular carrier will assign a temporary IP address to your device whenever you begin a new data session, or periodically refresh the IP address assigned if your device connects continuously.
