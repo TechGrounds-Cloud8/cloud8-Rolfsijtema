@@ -15,7 +15,6 @@ Figure out who determines what protocols we use and what is needed to introduce 
 Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
 
 
-
 ### Sources
 [https://www.google.com/search?q=how+introduce+your+own+protocol&ei=IRp6YqalFsvxkwXv8aXYAQ&ved=0ahUKEwjmud6JutT3AhXL-KQKHe94CRsQ4dUDCA4&uact=5&oq=how+introduce+your+own+protocol&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQjwlY1Atg5BJoAXABeACAAVCIAZcCkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz]
 
