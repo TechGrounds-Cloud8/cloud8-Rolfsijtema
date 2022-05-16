@@ -40,7 +40,7 @@ You need to create a Asymmetrical encryption key.   instead of Symmetrical.
 You are not allowed to use any private messages or other communication channels besides Slack. 
 
 Analyse the shortcomings of this method.
-You can't share the message and the key tru the same channel without sharing it with others.  Unless you send a private message. 
+You can't share documents save thru the channel with this Symmetrical methode.  We used the Diffie Helman methode, A-symmatric. 
 
 ### Sources
 [Symmatric Encryption](https://www.ssl2buy.com/wiki/symmetric-vs-asymmetric-encryption-what-are-differences)
