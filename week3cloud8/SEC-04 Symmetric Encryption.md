@@ -19,8 +19,6 @@ Data in rest Data in Motion:
 ![restmotion](../00_includes/data%20rest%20motion.png)
 
 ## Exercise
-Find two more historic ciphers besides the Caesar cipher.
-
 Enigma Machine 
 DES Data Encryption Standard.
 These are not in use anymore because they are already "broken" 
@@ -39,7 +37,7 @@ You need to create a Asymmetrical encryption key.   instead of Symmetrical.
 
 You are not allowed to use any private messages or other communication channels besides Slack. 
 
-Analyse the shortcomings of this method.
+Analyse the shortcomings of this method..
 You can't share documents save thru the channel with this Symmetrical methode.  We used the Diffie Helman methode, A-symmatric. 
 
 ### Sources
@@ -52,7 +50,7 @@ You can't share documents save thru the channel with this Symmetrical methode.  
 [symmatric](https://www.youtube.com/watch?v=AQDCe585Lnc)
 
 ### Overcome challanges
-find a way to share message and KEY in same public channel with with/to your PEER, this is not possible. 
+find a way to share message and KEY in same public channel with with/to your PEER, this is not possible since it is a Symmetrical Encryption.
 
 ### Results
 slack Shared screenshot
