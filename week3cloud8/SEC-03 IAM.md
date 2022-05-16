@@ -58,7 +58,7 @@ Users are granted permission to read, write or execute only.
 https://www.perforce.com/blog/vcs/what-is-multi-factor-authentication
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+None
 
 ### Results
 POLP
