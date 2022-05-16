@@ -35,7 +35,7 @@ Send a symmetrically encrypted message to one of your peers via the public Slack
 They should be able to decrypt the message using a key you share with them. 
 
 Try to think of a way to share this encryption key without revealing it to everyone.
-You need to create a Asymmetrical encryption key.   instead of Symmetrical. 
+You need to create a Asymmetrical encryption key.   instead of Symmetrical.  
 
 You are not allowed to use any private messages or other communication channels besides Slack. 
 
@@ -51,13 +51,12 @@ You can't share documents save thru the channel with this Symmetrical methode.  
 
 [symmatric](https://www.youtube.com/watch?v=AQDCe585Lnc)
 
-
-
 ### Overcome challanges
 find a way to share message and KEY in same public channel with with/to your PEER, this is not possible. 
 
 ### Results
 slack Shared screenshot
+
 ![slack](../00_includes/Slack%20shared.png)
 
 Result shared message
