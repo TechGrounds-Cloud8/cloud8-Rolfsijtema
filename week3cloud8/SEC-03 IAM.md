@@ -1,7 +1,6 @@
 # [SEC-03 IAM]
-
-Security goes in two steps: 
-
+Security goes in two steps: authentication and authorization. 
+What are the diffirence between them, and how do you secure systems/information/fight fraude. 
 
 ## Key terminology
 
