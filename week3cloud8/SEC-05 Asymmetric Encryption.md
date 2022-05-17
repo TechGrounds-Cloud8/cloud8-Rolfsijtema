@@ -19,6 +19,8 @@ You are not allowed to use any private messages or other communication channels 
 
 Analyse the difference between this method and symmetric encryption.
 
+![diffirence](../00_includes/Diffirence.png)
+
 Image result for Analyse the difference between this method and symmetric encryption.
 Unlike symmetric encryption, which uses the same secret key to encrypt and decrypt sensitive information, asymmetric encryption, also known as public-key cryptography or public-key encryption, uses mathematically linked public- and private-key pairs to encrypt and decrypt senders' and recipients' sensitive data
 
