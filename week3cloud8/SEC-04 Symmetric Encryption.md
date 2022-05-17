@@ -53,6 +53,11 @@ You can't share documents save thru the channel with this Symmetrical methode.  
 find a way to share message and KEY in same public channel with with/to your PEER, this is not possible since it is a Symmetrical Encryption.
 
 ### Results
+Result is that it is not possible with the public channel. 
+
+If you you do it A-symmatrical encrypted way it does work. this part will be duscissed in the next assignment. 
+
+example. 
 slack Shared screenshot
 
 ![slack](../00_includes/Slack%20shared.png)
