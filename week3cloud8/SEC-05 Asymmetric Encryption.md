@@ -1,5 +1,6 @@
 # [Asymmatric Encryption]
-[Give a short summary of the subject matter.]
+Learning about the Asymmatrical way of encrypting, compare is to Symmatrical. How and when to use this option. 
+Learn about diffirent types of keys that are Generated
 
 ## Key terminology
 Asymmetric encryption: 
