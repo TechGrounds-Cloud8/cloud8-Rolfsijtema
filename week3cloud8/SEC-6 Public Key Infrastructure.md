@@ -40,15 +40,18 @@ Find the list of trusted certificate roots on your system (bonus points if you a
 Create a self-signed certificate on your VM.
 ![create x509 key](../00_includes/x509%20key.png)
 
-Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl).
+Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl)
+
 ![analize](../00_includes/Analyze%20path.png)
 
 Details show when this certificate expires, where is it made, by who it is made, SHA-256 shows the certificate, RSA encryption. 
 
 Find the list of trusted certificate roots on your system (bonus points if you also find it in your VM).
+
 ![systemrootcertif](../00_includes/Systemroots.png)
 
 (bonus points if you also find it in your VM).
+
 ![bonusVM](../00_includes/BonusVM.png)
 
 
