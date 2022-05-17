@@ -38,6 +38,7 @@ You need to create a Asymmetrical encryption key.   instead of Symmetrical.
 You are not allowed to use any private messages or other communication channels besides Slack. 
 
 Analyse the shortcomings of this method..
+
 You can't share documents save thru the channel with this Symmetrical methode.  We used the Diffie Helman methode, A-symmatric. 
 
 ### Sources
@@ -56,6 +57,8 @@ find a way to share message and KEY in same public channel with with/to your PEE
 Result is that it is not possible with the public channel. 
 
 If you you do it A-symmatrical encrypted way it does work. this part will be duscissed in the next assignment. 
+
+We used the Diffie Helman methode, A-symmatric.
 
 example. 
 slack Shared screenshot
