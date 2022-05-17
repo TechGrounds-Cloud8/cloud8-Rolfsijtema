@@ -38,6 +38,7 @@ Find the list of trusted certificate roots on your system (bonus points if you a
 
 ### Results
 Create a self-signed certificate on your VM.
+
 ![create x509 key](../00_includes/x509%20key.png)
 
 Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl)
