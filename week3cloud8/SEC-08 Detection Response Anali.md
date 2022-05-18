@@ -39,6 +39,10 @@ Intrusion detection systems (IDS)
 
 IDS and IPS constantly watch your network, identifying possible incidents and logging information about them, stopping the incidents, and reporting them to security administrators.
 
+![IPSDPSlayout](../00_includes/IPSIDS-layout.png)
+
+They work together: 
+
 ![ipsids](../00_includes/IPS%20IDS.png)
 
 If an attack is detected, the IDS reports the attack, but it is then up to the administrator to take action. That's why having both an IDS and IPS system is critical. A good security strategy is to have them work together as a
