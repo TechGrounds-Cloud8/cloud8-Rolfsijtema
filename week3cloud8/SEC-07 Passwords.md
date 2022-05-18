@@ -42,11 +42,6 @@ Find out what hashing is and why it is preferred over symmetric encryption for s
 * It is easy to find a record when the data is hashed.
 * password can be recovered in a fraction of a second.
 
-
-
-
-
-
 Find out how a Rainbow Table can be used to crack hashed passwords.
 
 Below are two MD5 password hashes. One is a weak password, the other is a string of 16 randomly 
@@ -67,6 +62,8 @@ Despite the bad password, and the fact that Linux uses common hashing algorithms
 [unlead hashes](https://hashes.com/en/tools/hash_identifier)
 
 [SALT&PEPPER](https://www.youtube.com/watch?v=--tnZMuoK3E)
+
+[saltpepperrelaxation](https://www.youtube.com/watch?v=vCadcBR95oU)
 
 ### Overcome challanges
 How to crack second code with Rainbow. 
