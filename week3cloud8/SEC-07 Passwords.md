@@ -99,7 +99,7 @@ To understand how salting works, find a peer who has the same password in /etc/s
 
 Compared Hashes: The length of the hashes are diffirent. 
 
-![comparehash](../00_includes/comparehash.png)
+![comparehash](../00_includes/comparehashes.png)
 
 
 
