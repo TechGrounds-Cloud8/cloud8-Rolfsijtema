@@ -93,9 +93,13 @@ etc$ sudo cat shadow
 
 ![useradhash](../00_includes/useraddhash.png)
 
-Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
+Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. 
+
+To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
 
 Compared Hashes: The length of the hashes are diffirent. 
+
+![comparehash](../00_includes/comparehash.png)
 
 
 
