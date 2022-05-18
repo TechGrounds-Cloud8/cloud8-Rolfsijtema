@@ -27,9 +27,9 @@ Detection, response, and analysis.
 Detecting anomalies
 What are 4 methods of threat detection?
 
-Configuration
-Modeling
-Indicator
+Configuration,
+Modeling,
+Indicator,
 Threat Behavior.
 
 Generally, all threat detection falls into these 4 major categories: There is no best type of threat detection. Each category can support different requirements and approaches depending on the business requirement.
@@ -51,10 +51,9 @@ If an attack is detected, the IDS reports the attack, but it is then up to the a
 
 How much data is lost on incident (Recovery Point Objective; RPO), how long it takes to be back online (Recovery Time Objective; RTO), and cost.
 
-RPO 
+RPO & RTO
 
-RTO
-
+Recovery Point Objective (RPO) and Recovery Time Objective (RTO) are two of the most important parameters of a disaster recovery or data protection plan. These are objectives that can guide enterprises to choose an optimal cloud backup and disaster recovery plan.
 
 ## Exercise
 A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup. The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes. What is the RPO of the database?
@@ -69,4 +68,22 @@ An automatic failover to a backup web server has been configured for a website. 
 [Give a short description of your challanges you encountered, and how you solved them.]
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup. The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes. 
+
+What is the RPO of the database? 15min
+
+For example, you can use a three-tier model to design your business continuity plan:
+
+Tier-1: Mission-critical applications that require an RTPO of less than 15 minutes
+Tier-2: Business-critical applications that require RTO of 2 hours and RPO of 4 hours
+Tier-3: Non-critical applications that require RTO of 4 hours and RPO of 24 hours
+
+Recovery Time Objective (RTO) is the amount of downtime a business can tolerate.
+
+An automatic failover to a backup web server has been configured for a website. Because the backup has to be powered on first and has to pull the newest version of the website from GitHub, the process takes about 8 minutes. What is the RTO of the website?
+
+8min.
+
+
+
