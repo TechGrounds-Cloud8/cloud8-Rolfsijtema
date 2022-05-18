@@ -77,13 +77,28 @@ Hash-code1:03F6D7D1D9AAE7160C05F71CE485AD31
 ![hashcode1](../00_includes/Code1.png)
 
 Hash-code2 03D086C9B98F90D628F2D1BD84CFA6CA
+The Hashed pasword does not match the database of 190GB, this could mean that there is used a SALT 
 
 ![nonehash](../00_includes/nonecode.png)
 
 ![hashcode2](../00_includes/Code2.png)
 
 Create a new user in Linux with the password 12345. Look up the hash in a Rainbow Table.
+
+Root: sudo useradd saltpepper
+
+Root: sudo passwd saltpepper
+cd etc
+etc$ sudo cat shadow
+
+![useradhash](../00_includes/useraddhash.png)
+
 Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
+
+Compared Hashes: The length of the hashes are diffirent. 
+
+
+
 
 
 
