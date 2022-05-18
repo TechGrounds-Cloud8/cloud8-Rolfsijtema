@@ -99,7 +99,7 @@ To understand how salting works, find a peer who has the same password in /etc/s
 
 When a password is created, SALT adds another part to it, this part contains weird caracters. Look at the picture: after this add, the hash will be made. Rainbow tables are useless when SALT is added.
 
-Compared Hashes: The length of the hashes are diffirent. 
+Compared Hashes: The length of the hashes are diffirent. dollar $6 is used in all SALT's
 
 ![comparehash](../00_includes/comparehashes.png)
 
