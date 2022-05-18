@@ -73,7 +73,7 @@ An automatic failover to a backup web server has been configured for a website. 
 
 A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup. The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes. 
 
-What is the RPO of the database?  24hrs maximum. 
+What is the RPO of the database? Minimal 15min max -  24hrs maximum since the backup is once every 24hrs. 
 
 For example, you can use a three-tier model to design your business continuity plan:
 
