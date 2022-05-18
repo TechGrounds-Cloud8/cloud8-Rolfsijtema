@@ -37,7 +37,13 @@ Generally, all threat detection falls into these 4 major categories: There is no
 intrusion prevention systems (IPS)
 Intrusion detection systems (IDS)
 
+IDS and IPS constantly watch your network, identifying possible incidents and logging information about them, stopping the incidents, and reporting them to security administrators.
+
 ![ipsids](../00_includes/IPS%20IDS.png)
+
+If an attack is detected, the IDS reports the attack, but it is then up to the administrator to take action. That's why having both an IDS and IPS system is critical. A good security strategy is to have them work together as a
+
+![ipsidstogether](../00_includes/ips-idstogether.png)
 
 How much data is lost on incident (Recovery Point Objective; RPO), how long it takes to be back online (Recovery Time Objective; RTO), and cost.
 
