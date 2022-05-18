@@ -95,9 +95,9 @@ etc$ sudo cat shadow
 
 Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. 
 
-When a password is created, SALT adds another part to it, this part contains weird caracters. Look at the picture: after this add, the hash will be made. Rainbow tables are useless when SALT is added.
-
 To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
+
+When a password is created, SALT adds another part to it, this part contains weird caracters. Look at the picture: after this add, the hash will be made. Rainbow tables are useless when SALT is added.
 
 Compared Hashes: The length of the hashes are diffirent. 
 
