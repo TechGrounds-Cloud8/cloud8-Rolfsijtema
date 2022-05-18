@@ -39,6 +39,10 @@ Find the list of trusted certificate roots on your system (bonus points if you a
 ### Results
 Create a self-signed certificate on your VM.
 
+SHA-256 is the type of encrypton that is used for creating the key. 
+
+X509 creates a a selfsigned certificate using openSSL
+
 ![create x509 key](../00_includes/x509%20key.png)
 
 Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl)
