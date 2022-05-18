@@ -41,7 +41,7 @@ IDS and IPS constantly watch your network, identifying possible incidents and lo
 
 ![IPSDPSlayout](../00_includes/IPSIDS-layout.png)
 
-They work together: 
+They work together: they analize traffic. 
 
 ![ipsids](../00_includes/IPS%20IDS.png)
 
