@@ -56,5 +56,5 @@ Find the list of trusted certificate roots on your system (bonus points if you a
 ![bonusVM](../00_includes/BonusVM.png)
 
 
-k
+
 
