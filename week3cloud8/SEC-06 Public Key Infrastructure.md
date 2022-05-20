@@ -12,9 +12,9 @@ PKI performs encryption directly through the keys that it generates. It works by
 
 
 It consists of three entities
-C Confidentality
-I Integrity
-A Availability
+Sign: Issuing a new certificate, based on a Certificate Signing Request (CSR).
+Fetch: Recovering an existing certificate and key pair.
+Revoke: Revoking a client certificate.
 
 X.509 certificate: This is a standard: Certificate that uses the widely accepted international X. 509 public key infrastructure (PKI):
 It checks  It belongs to a User, Computer, or a service.. x509 used to manage identity and security in internet communications and computer networking.
