@@ -29,8 +29,22 @@ You should be able to explain all six points, as well as recognise synonyms.
 
 [AWS 6 advantages explained](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
 
+[Youtube explaination](https://www.youtube.com/watch?v=b4OGEu449l0)
+
 ### Overcome challanges
 None
 
 ### Results
+
+At the Key Terminology you find the 6 explained. 
+
+Cloud Computing has measurable Impact on Business:
+
+![cloudMeasurable](../00_includes/CloudImpact.png)
+
+The Synonyms are:
+1. Cost savings
+2. Pay for what you use
+3. Lower Variable cost
+
 
