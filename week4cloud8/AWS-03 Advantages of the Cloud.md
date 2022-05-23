@@ -38,13 +38,23 @@ None
 
 At the Key Terminology you find the 6 explained. 
 
-Cloud Computing has measurable Impact on Business:
+The Synonyms / unique sellingpoints as i call them:
+
+Here you find a picture that actually shows improvements when using cloud! 
 
 ![cloudMeasurable](../00_includes/CloudImpact.png)
 
-The Synonyms are:
-1. Cost savings
-2. Pay for what you use
-3. Lower Variable cost
+- Save on Hardware
+- save time and money on developement
+- you can use ur FTE on diffirent projects
+- use a service that is used worldwide
+- It is brought to you by Amazon ;)
+- Worldwide customers are serviced faster by low latency. 
+- Easy to setup worldwide customer relation manager
+- clear calculation on costs
+- Use highspeed systems
+- Use the latest technology
+- automated updates
+
 
 
