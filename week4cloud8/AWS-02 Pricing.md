@@ -81,6 +81,7 @@ Is a simple storage service, it helps to store and back-up Data. Also diffirent 
 ![What does s3](../00_includes/Whats%20is%20S3.png)
 
 Why we use S3
+
 ![why s3](../00_includes/Why%20S3.png)
 
 What is EC2:
