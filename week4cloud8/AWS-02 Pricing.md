@@ -61,7 +61,7 @@ capex and opex
 [capex & opex](https://www.youtube.com/watch?v=dLyKfxkkA1s) 
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Reconize diffirence between Apex and Opex costs. 
 
 ### Results
 The four advantages of the AWS pricing model.
