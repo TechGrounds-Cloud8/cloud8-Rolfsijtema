@@ -85,7 +85,7 @@ Why we use S3
 
 What is EC2:
 
-EC2 is a webservice wich aims to make life easyer for developers by providing secure and resizable compute capacity in the cloud. 
+EC2 is a webservice wich aims to make life easyer for developers by providing secure and resizable compute capacity in the cloud. It also grows to the size you need, also the costs ar excactly what you use. 
 
 Always free services:
 
