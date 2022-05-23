@@ -8,7 +8,7 @@ You should be able to explain all six points, as well as recognise synonyms.
 
 ## Key terminology
 
-**Trade fixed expense for variable expense** – Instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.
+**Trade Capital (capEx) expense for variable expense (opex)** – Instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.
 
 **Benefit from massive economies** of scale – By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.
 
@@ -26,10 +26,11 @@ The six advantages of cloud computing.
 You should be able to explain all six points, as well as recognise synonyms.  
 
 ### Sources
-[List your sources you used for solving the exercise]
+
+[AWS 6 advantages explained](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+None
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]I understand
+
