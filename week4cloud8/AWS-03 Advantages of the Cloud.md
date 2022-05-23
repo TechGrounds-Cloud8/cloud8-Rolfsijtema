@@ -1,10 +1,28 @@
-# [Subject]
-[Give a short summary of the subject matter.]
+# [Advantages of the cloud]
+
+Learn about the 6 advantages of cloud computing, as marketing tools. 
+
+These 6 basic characteristics of the cloud make it interesting for company's migrate. 
+
+You should be able to explain all six points, as well as recognise synonyms.  
 
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
+
+Trade Capital expense (CapEx) for variable expense (OpEx)
+
+Benefit from massive economies of scale
+
+Stop guessing capacity
+
+Increase speed and agility
+
+Stop spending money on running and maintaining data centers
+
+Go global in minutes
 
 ## Exercise
+Study the 6 advantages of the cloud. Explain them, and reconize the synonyms. 
+
 ### Sources
 [List your sources you used for solving the exercise]
 
