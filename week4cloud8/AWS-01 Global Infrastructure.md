@@ -45,6 +45,8 @@ What is a Region?
 
 Regions in AWS: Physical locations around the world. These are locations where AWS clusters data centers.
 
+In AWS a region is a physical location around the world with clusters of data centers. Each cluster of data centers is called a AZ, more about AZ's later. In every region multiple of these az's are isolated and physically seperated. This is one big differences already with other cloud providers since most other providers often only have 1 data center in a region.
+
 AWS Global Infrastructure Map
 
 ![awslocations](../00_includes/AWS%20locations.png)
