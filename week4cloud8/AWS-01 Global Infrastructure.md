@@ -7,7 +7,7 @@ Region: Physical Locations around the globe.
 
 AZ: Availability Zone 
 
-EL: Ede Location
+EL: Edge Location
 
 IAM: AWS Identity and Access Management
 
@@ -32,7 +32,7 @@ Why would you choose one region over another? (e.g. eu-central-1 (Frankfurt) ove
 [AWS EL AZ AR](https://www.youtube.com/watch?v=Uk2A9-JO-_w)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Try not to go to deep into the subjects
 
 ### Results
 
@@ -74,7 +74,7 @@ Why would you choose one region over another? (e.g. eu-central-1 (Frankfurt) ove
 There is region specific pricing. 
 Oregon and Virginia are the cheapest regions. 
 
-Down side: more latency when ur located further away from a server. 
+Down side: more latency when ur located further away from a server/region.
 
 
 
