@@ -1,15 +1,47 @@
-# [Subject]
-[Give a short summary of the subject matter.]
+# [Simple Storage Service]
+
+Learn about S3 services, storage classes, Glacier deep Archive, Pricing, 
+
+Build buckets, fill them with data, give acces and share with other peers
 
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
+
+There are 4 storage classes:
+S3 Standard
+S3 Standard-IA
+S3 One-zone IA
+S3 Glacier
+There’s also S3 Glacier Deep archive, a subclass of S3 Glacier. And Intelligent Tiering which is more a cost optimization tool than a class on its own.
+Storage classes differ in availability, durability, retrieval time, and cost.
 
 ## Exercise
+Exercise 1
+Create new S3 bucket with the following requirements:
+Region: Frankfurt (eu-central-1)
+Upload a cat picture to your bucket.
+Share the object URL of your cat picture with a peer. Make sure they are able to see the picture.
+
+Exercise 2
+Create new bucket with the following requirements:
+Region: Frankfurt (eu-central-1)
+Upload the four files that make up AWS’ demo website.
+Enable static website hosting.
+Share the bucket website endpoint with a peer. Make sure they are able to see the website.
+
+
 ### Sources
-[List your sources you used for solving the exercise]
+[AWS console solutions](https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1#)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
-
+Finding the solution to share expercise 2 website,  make it accesable
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+**Exercise 1**
+
+Result:
+![catpic](../00_includes/catpic.png)
+
+**Exercise 2**
+ 
+Result: 
+![s3website](../00_includes/Websites3.png)

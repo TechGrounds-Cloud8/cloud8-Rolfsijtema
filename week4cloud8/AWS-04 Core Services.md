@@ -1,6 +1,6 @@
 # [AWS-04 Core Services]
 
-In preparation to the exam: 
+In preparation to the exam: EC2 - S3 - VPC !!! you need to know them by head!!!!  the rest globally
 
 this assignment shows the most important applications when it comes to being a Cloud Partinioner.  These serveses will also be an important part on the exams.  Study the most important applications. 
 

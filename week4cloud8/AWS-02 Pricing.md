@@ -218,3 +218,4 @@ For example: Salary, rent, energy can be calculated within 1 year.
 Buying a building not an OPEX but APEX!  because it is usually never payed of in that same year.  
 ![Opex examples](../00_includes/Opex%20examples.png)
 
+
