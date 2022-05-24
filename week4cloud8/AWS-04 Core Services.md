@@ -74,10 +74,10 @@ storage
 
 
 ### Sources
-[List your sources you used for solving the exercise]
+From Amazon AWS page
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+It is a huge pakkage of theory.
 
 ### Results
 
