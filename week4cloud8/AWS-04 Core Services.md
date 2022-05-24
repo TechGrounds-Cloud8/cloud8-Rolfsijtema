@@ -1,4 +1,4 @@
-# [Subject]
+# [AWS-04 Core Services]
 [Give a short summary of the subject matter.]
 
 ## Key terminology
