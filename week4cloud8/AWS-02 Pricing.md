@@ -5,23 +5,23 @@ Understand how pricing works, Pay as you go pricing model, why it is the main re
 
 AWS pricing model:
 
-Pay-as-you-go
+- Pay-as-you-go
 
-Save when you 
+- Save when you 
 
-Pay less by using more
+- Pay less by using more
 
-Benefit from massive economies of scale
+- Benefit from massive economies of scale
 
-capex: Capital expenditures (CAPEX)
+- capex: Capital expenditures (CAPEX)
 
-opex: Operating expenses
+- opex: Operating expenses
 
-S3: Simple Storage Service (solution) (Amazon S3)
+- S3: Simple Storage Service (solution) (Amazon S3)
 
-EC2: Amazon Elastic Compute Cloud (Amazon EC2) 
+- EC2: Amazon Elastic Compute Cloud (Amazon EC2) 
 
-Always free services:
+- Always free services:
 
 Services that are available to both excisting and new AWS customers. 
 
@@ -82,15 +82,15 @@ Is a simple storage service, it helps to store and back-up Data. Also diffirent 
 
 ![What does s3](../00_includes/Whats%20is%20S3.png)
 
-Why we use S3
+**Why we use S3**
 
 ![why s3](../00_includes/Why%20S3.png)
 
-What is EC2:
+**What is EC2**
 
 EC2 is a webservice wich aims to make life easyer for developers by providing secure and resizable compute capacity in the cloud. It also grows to the size you need, also the costs ar excactly what you use. 
 
-Always free services:
+**Always free services**
 
 22 AWS services are always free, 33 are free for a year
 
