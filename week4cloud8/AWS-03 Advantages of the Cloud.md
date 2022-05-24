@@ -46,7 +46,7 @@ Here you find a picture that actually shows improvements when using cloud!
 
 - Save on Hardware
 - save time and money on developement
-- you can use ur FTE on diffirent projects
+- you can use ur FTE on different projects
 - use a service that is used worldwide
 - It is brought to you by Amazon ;)
 - Worldwide customers are serviced faster by low latency. 
@@ -56,5 +56,4 @@ Here you find a picture that actually shows improvements when using cloud!
 - Use the latest technology
 - automated updates
 
-x
 
