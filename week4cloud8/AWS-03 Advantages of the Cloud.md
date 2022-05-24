@@ -56,5 +56,5 @@ Here you find a picture that actually shows improvements when using cloud!
 - Use the latest technology
 - automated updates
 
-
+x
 
