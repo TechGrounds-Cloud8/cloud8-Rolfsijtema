@@ -66,15 +66,15 @@ Reconize diffirence between Apex and Opex costs.
 ### Results
 The four advantages of the AWS pricing model.
 
-Pay-as-you-go
+- Pay-as-you-go
 
-Save when you commit
+- Save when you commit
 
-Pay less by using more
+- Pay less by using more
 
-Benefit from massive economies of scale
+- Benefit from massive economies of scale
 
-There will be a free Tier account for the first 12months on:
+- There will be a free Tier account for the first 12months on:
 
 What is S3 
 
@@ -159,7 +159,7 @@ Amazon Elastic Load Balancing: 750 hours per month
 
 AWS IoT Events automatic sensor responses: 2,500 message evaluations per month
 
-Here is the full list of what you can get free forever with Amazon AWS free tier, without any time limit:
+**Here is the full list of what you can get free forever with Amazon AWS free tier, without any time limit**
 
 Amazon DynamoDB NoSQL database: 25GB of storage
 
@@ -207,12 +207,12 @@ AWS X-Ray debugging: 100,000 traces recorded per month
 
 Service(SQS) free tiers are some of the services that are available to both existing and new AWS customers indefinitely.
 
-Understand the differences between capex and opex
+**Understand the differences between capex and opex**
 
-Capex a therm that descibes the money ur company spends to create future advantages. 
+- Capex a therm that descibes the money ur company spends to create future advantages. 
 ![apex examples](../00_includes/APEX%20examples.png)
 
-Opex are costs are costs that are calculated within 1 tax-year.
+- Opex are costs are costs that are calculated within 1 tax-year.
 
 For example: Salary, rent, energy can be calculated within 1 year. 
 Buying a building not an OPEX but APEX!  because it is usually never payed of in that same year.  
