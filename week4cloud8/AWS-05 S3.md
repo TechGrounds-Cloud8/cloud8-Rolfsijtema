@@ -4,6 +4,14 @@ Learn about S3 services, storage classes, Glacier deep Archive, Pricing,
 
 Build buckets, fill them with data, give acces and share with other peers. Be aware of acces "public" 
 
+What do you pay for in S3?
+- GB storage per month
+- Transfer OUT to out of the region
+
+You don’t pay for:
+- Transfer IN to Amazon S3
+- Transfer OUT from S3 to CloudFront or EC2 in the same region
+
 ## Key terminology
 
 There are 4 storage classes:
