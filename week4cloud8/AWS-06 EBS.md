@@ -36,7 +36,7 @@ Rules: Allow SSH, HTTP and HTTPS from anywhere
 
 Wait for the Status Checks to get out of the initialization stage. When you click the Status Checks tab, you should see that the System reachability and the Instance reachability checks have passed.
 Log in to your EC2 instance using an ssh connection.
-Terminate your instance.
+Terminate your instance..
 
 
 
