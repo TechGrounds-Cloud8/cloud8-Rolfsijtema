@@ -15,15 +15,6 @@ Any external device, including EBS, needs to be mounted if you want to use them 
 
 
 ## Exercise
-
-**Important Commands Used:**
-
-LSBLK command: is used to display details about block devices and these block devices(Except ram disk) are basically those files that represent devices connected to the pc.
-file -s command: With this command you can check the File System of a volume.
-mkfs -t ext4 command: With this command you can make/give a volume a certain file system.
-df -h command: This command list a summary of all mounted volumes and file systems, and their usage/free space.
-File system: A Linux file system is a structured collection of files on a disk drive or a partition. A partition is a segment of memory and contains some specific data. In our machine, there can be various partitions of the memory. Generally, every partition contains a file system.
-
 Exercise 1
 Navigate to the EC2 menu.
 Create a t2.micro Amazon Linux 2 machine with all the default settings.
@@ -49,11 +40,25 @@ Find your text file on the new EBS volume.
 
 ### Sources
 
+[AWStraining](https://aws.amazon.com/training/digital/?cta=tctopbanner)
+
+Teamwork ! 
+AWS website
+ALso following the info you get from AWS during installation.
+
 ### Overcome challanges
 Fixing acces.pem key with CHMOD 400
 Understanding the link between Linux terminal and AWS EC2, found out there are many ways to adjust EC2 enviroment/virtual "disks"
 
 ### Results
+
+**Important Commands Used:**
+
+- LSBLK command: is used to display details about block devices and these block devices(Except ram disk) - are basically those files that represent devices connected to the pc.
+- file -s command: With this command you can check the File System of a volume.
+- mkfs -t ext4 command: With this command you can make/give a volume a certain file system.
+- df -h command: This command list a summary of all mounted volumes and file systems, and their usage/free - space.
+- File system: A Linux file system is a structured collection of files on a disk drive or a partition. A - partition is a segment of memory and contains some specific data. In our machine, there can be various - partitions of the memory. Generally, every partition contains a file system.
 
 ![connectami2](../00_includes/connect%20ami2aws.png)
 
