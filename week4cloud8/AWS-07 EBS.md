@@ -1,4 +1,4 @@
-# [Elastic Bock store]
+# [Elastic Block store]
 
 Learn about EBS, how to attach volumes in EC2, mount them and create backups called snapshot
 
@@ -15,6 +15,14 @@ Any external device, including EBS, needs to be mounted if you want to use them 
 
 
 ## Exercise
+
+**Important Commands Used:**
+
+LSBLK command: is used to display details about block devices and these block devices(Except ram disk) are basically those files that represent devices connected to the pc.
+file -s command: With this command you can check the File System of a volume.
+mkfs -t ext4 command: With this command you can make/give a volume a certain file system.
+df -h command: This command list a summary of all mounted volumes and file systems, and their usage/free space.
+File system: A Linux file system is a structured collection of files on a disk drive or a partition. A partition is a segment of memory and contains some specific data. In our machine, there can be various partitions of the memory. Generally, every partition contains a file system.
 
 Exercise 1
 Navigate to the EC2 menu.
