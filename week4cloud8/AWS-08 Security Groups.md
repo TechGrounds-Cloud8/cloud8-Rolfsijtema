@@ -1,55 +1,52 @@
-Elastic Cloud Compute
+# [Security Groups]
 
-WHAT IS EC2
+Learn about, Network Security Groups, NCAL, Statefull and Stateless. 
+What are the diffirences and where are they installen within the VPC.
 
-- [ ] Virtual Computing Environment. More than 500 instances
-- [ ] Flexibel compute capacity 
-- [ ] Launch instances with many different operational systems 
-- [ ] Run as many instances as you need
-- [ ] Build with: AMI’s : Amazon Machine Images  
+## Key terminology
+- Security Groups are applied at the EC2 instances level.
 
-PRICING: 
-- [ ] On demand instances are the most expensive option, no long therm commitments,  but they’re also the most flexible. Used by: Netflix, Spotify, Prime.
-- [ ] 
-- [ ] Reserved instances are mostly very cheap,
-- [ ] You pay upfront, cheaper than Demand, You can only reserve instances only for 1 or 3 years, they are reliable. . 
-- [ ] 
-- [ ] Spot instanced 
-- [ ] Are the cheapest, you save money,-  but there not always reliable. When others take ur ‘cheaper space in Region: Oregen” you might go to a more expensive region like Frankfurt. 
+- Network ACLs act as a secondary layer of defense.
 
-SECURITY: 
+- Network ACLs are applied at the Subnet level. These restrict the traffic, coming in or out of the subnet. ACLs are therefore automatically applied to all resources (e.g. EC2 instances) in the subnet.
+
+- Stateful firewalls are capable of monitoring and detecting states.
+
+- Stateless firewalls: only focus on individual packets, using preset rules to filter traffic.
+
+## Exercise
+
+**Study:**
+Security Groups in AWS
+Network Access Control Lists in AWS
+
+### Sources
+[Layout NACL and SEC-Groups](https://harvestingclouds.com/post/azure-for-aws-professionals-networking-aws-06-network-acls-vs-security-groups/)
+
+### Overcome challanges
+
+Understand diffirence in configuration NCAL and Sec Groups. Alowed manual alowed default. 
+
+### Results
 
 Security Groups.  (Network level)
-- [ ] Allow to add rules
-- [ ] Anything that is not allowed, is always denied 
-- [ ] 1 default rule allows all Outbound traffic. 
+- Allow to add rules
+- Anything that is not allowed, is always denied 
+- 1 default rule allows all Outbound traffic. 
 
 NACL: NETWORK ACCES CONTROL LIST 
-- [ ] Extra layer of security
-- [ ] A NACL has both explicit allow and deny rules, stateless firewalls.
-- [ ] You allow rules manually
-- [ ] You denied rules manually 
+- Extra layer of security
+- A NACL has both explicit allow and deny rules, stateless firewalls.
+- You allow rules manually
+- You denied rules manually 
 
-The Assignment
-Build wi
-1. Choose name for instance
-2. Choose AMI (Amazon Machine Image, Information list zodat je instance gebouwd kan worden)
-3. Chose type instance. T2  free tiers
-4. Choose key pair
-5. Choose network and and a securitygroup.  HTTP HTTP
-6. Configure Volume 1gb
-7. advanced details, termination protection enable. 
-8. helemaal onderaan kun je een bash scripts toevoegen aan de user data. Dit zal ge-rund worden bij het starten van de instance
-9. click create instance and show status check
-10: Click instance open: status check. 
+![layout](../00_includes/VPCACL.png)
+
+Diffirence between Security Groups and NACL
+
+![sec vs NACL](../00_includes/sec%20vs%20ACLs.png)
+
+NACL is another security line next to the Securitygroup, so more safety.
 
 
-Stateful firewalls are capable of monitoring and detecting states.
 
-Stateless firewalls: only focus on individual packets, using preset rules to filter traffic.
-
-
-￼
-
-
-￼
