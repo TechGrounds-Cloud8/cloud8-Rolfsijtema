@@ -40,6 +40,8 @@ Find your text file on the new EBS volume.
 
 ### Sources
 
+[create filessystem](https://superuser.com/questions/934678/fdisk-do-i-need-it-or-can-i-make-a-filesystem-directly)
+
 [AWStraining](https://aws.amazon.com/training/digital/?cta=tctopbanner)
 
 Teamwork ! 
