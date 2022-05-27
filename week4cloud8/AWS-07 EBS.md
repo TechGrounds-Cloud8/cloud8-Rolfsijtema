@@ -24,13 +24,13 @@ Size: 1 GiB
 Availability Zone: same as your EC2
 Wait for its state to be available.
 
-Exercise 2
+**Exercise 2**
 Attach your new EBS volume to your EC2 instance.
 Connect to your EC2 instance using SSH.
 Mount the EBS volume on your instance.
 Create a text file and write it to the mounted EBS volume.
 
-Exercise 3
+**Exercise 3**
 Create a snapshot of your EBS volume.
 Remove the text file from your original EBS volume.
 Create a new volume using your snapshot.
