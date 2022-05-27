@@ -1,4 +1,4 @@
-# [Subject]
+# [AWS-08 Security Groups]
 [Give a short summary of the subject matter.]
 
 ## Key terminology
