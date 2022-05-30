@@ -1,18 +1,43 @@
 # [Shared Responsibility Model]
 
-[Give a short summary of the subject matter.]
+Introduction
+The Shared Responsibility Model describes who is responsible for the security of what part of the cloud. In general, you can say that AWS is responsible for security of the cloud, while the customer is responsible for security in the cloud. AWS is always responsible for securing the physical infrastructure, while the customer is always responsible for encrypting customer data.
 
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
+
+Shared Responsibility Model: 
+
+Simply put, the AWS Shared Responsibility Model outlines what security actions an organization is responsible for and what security actions AWS manages. 
+
+CIS: Center For Internet Security
 
 ## Exercise
 
+Study Shared Responsibility Model 
 
 ### Sources
-[List your sources you used for solving the exercise]
+
+[Shared Responsibility Chart](https://pages.awscloud.com/apn-tv-authority-to-operate-ep-007.html?trk=apn-tv-carousel)
+
+[CIS](https://pages.awscloud.com/apn-tv-authority-to-operate-ep-003.html?trk=apn-tv-carousel)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+None
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+**In general**
+Depending on what your organization’s cloud infrastructure looks like, the responsibility of security actions varies between the cloud user and Amazon Web Services.
+
+**Customer Responsibility**
+- Customer Data is put in the cloud by the Customer, so the company has to make sure it is Encrypted.  
+
+**AWS**
+- Customer data-Customer responsibility 
+- AWS is responsible for the hardware and the Software that is offered by AWS / Azure 
+
+
+- AWS is responsible for security of the cloud,
+- Securing the Physical infrastructure
+
+![srm](../00_includes/SHaredResp.png)
