@@ -19,6 +19,8 @@ Study Shared Responsibility Model
 
 [Shared Responsibility Chart](https://pages.awscloud.com/apn-tv-authority-to-operate-ep-007.html?trk=apn-tv-carousel)
 
+[SRM explained detailed](https://aws.amazon.com/compliance/shared-responsibility-model/)
+
 [CIS](https://pages.awscloud.com/apn-tv-authority-to-operate-ep-003.html?trk=apn-tv-carousel)
 
 ### Overcome challanges
@@ -33,8 +35,9 @@ Depending on what your organization’s cloud infrastructure looks like, the res
 - Customer Data is put in the cloud by the Customer, so the company has to make sure it is Encrypted.  
 
 **AWS**
-- Customer data-Customer responsibility 
-- AWS is responsible for the hardware and the Software that is offered by AWS / Azure 
+- AWS is responsible for the hardware and the Software that is offered by AWS
+- Depending on software that is used, there is a shared or full responsibility for 
+
 
 
 - AWS is responsible for security of the cloud,
