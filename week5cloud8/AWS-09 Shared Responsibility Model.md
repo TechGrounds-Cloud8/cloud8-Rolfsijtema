@@ -5,7 +5,7 @@ The Shared Responsibility Model describes who is responsible for the security of
 
 ## Key terminology
 
-Shared Responsibility Model: 
+Shared Responsibility Model: In most cases there are spicific responsibility's, each software part in AWS could have diffirent responibility's 
 
 Simply put, the AWS Shared Responsibility Model outlines what security actions an organization is responsible for and what security actions AWS manages. 
 
@@ -36,8 +36,7 @@ Depending on what your organization’s cloud infrastructure looks like, the res
 
 **AWS**
 - AWS is responsible for the hardware and the Software that is offered by AWS
-- Depending on software that is used, there is a shared or full responsibility for 
-
+- Depending on software that is used, there is a shared or full responsibility for Customer. 
 
 
 - AWS is responsible for security of the cloud,
