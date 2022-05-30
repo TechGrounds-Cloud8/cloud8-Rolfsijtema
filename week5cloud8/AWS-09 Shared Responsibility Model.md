@@ -23,6 +23,8 @@ Study Shared Responsibility Model
 
 [CIS](https://pages.awscloud.com/apn-tv-authority-to-operate-ep-003.html?trk=apn-tv-carousel)
 
+[SRMexplained](https://www.youtube.com/watch?v=iODPCcQEPto)
+
 ### Overcome challanges
 None
 
