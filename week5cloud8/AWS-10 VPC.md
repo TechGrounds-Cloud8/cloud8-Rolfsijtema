@@ -117,4 +117,48 @@ Connect to your server using the public IPv4 DNS name.
 
 ### Results
 
-![awsexample](../00_includes/ExampleAWS10.png).
+First picutre shows the layout of the excercise result
+![awsexample](../00_includes/ExampleAWS10.png)
+
+**1** 
+Allocate an Elastic IP address to your account:
+
+![elasticIP](../00_includes/Elastic%20IP.png)
+
+**2** 
+Create an VPC with additional Public & Private Subnet 
+
+![vpccreate](../00_includes/VPC-create.png)
+
+![vpcCIDR](../00_includes/VPC%20CIDR.png)
+
+![subnets1](../00_includes/Subnet1%20Pr%26Public.png)
+
+![routetable](../00_includes/RouteTables.png)
+
+![association](../00_includes/Subnet%20associations.png)
+
+**3** 
+Create a Security Group with the following 
+
+![secgroup](../00_includes/Sec.group.png)
+
+Inbound Rules: 
+![inboundrules](../00_includes/Inboundrules.png)
+
+Outbound Rules:
+![outboundrules](../00_includes/Outboundrules.png)
+
+**4**
+Launch an EC2 instance
+
+![launchinstance](../00_includes/Launchinstance.png)
+
+Connect to your server using the public IPv4 DNS name.
+
+![loadtest](../00_includes/Load%20test.png)
+
+
+
+
+
