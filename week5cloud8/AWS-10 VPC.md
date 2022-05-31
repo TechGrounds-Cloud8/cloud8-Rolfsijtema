@@ -154,6 +154,9 @@ Launch an EC2 instance
 
 ![launchinstance](../00_includes/Launchinstance.png)
 
+Status
+![statuscheck](../00_includes/statuscheck.png)
+
 Connect to your server using the public IPv4 DNS name.
 
 ![loadtest](../00_includes/Load%20test.png)
