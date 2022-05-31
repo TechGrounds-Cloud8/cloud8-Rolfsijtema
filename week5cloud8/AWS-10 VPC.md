@@ -98,6 +98,7 @@ yum install -y httpd mysql php
 # Download Lab files
 wget https://aws-tc-largeobjects.s3.amazonaws.com/CUR-TF-100-RESTRT-1/80-lab-vpc-web-server/lab-app.zip
 unzip lab-app.zip -d /var/www/html/
+
 # Turn on web server
 chkconfig httpd on
 service httpd start
@@ -107,7 +108,6 @@ Value: Web server
 Security Group: Web SG
 Key pair: no key pair
 Connect to your server using the public IPv4 DNS name.
-
 
 ### Sources
 [List your sources you used for solving the exercise]
