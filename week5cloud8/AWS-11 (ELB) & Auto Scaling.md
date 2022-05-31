@@ -1,4 +1,4 @@
-# [Elastic Load Balancing (ELB) & Auto Scaling]
+# Elastic Load Balancing (ELB) & Auto Scaling
 
 How much capacity do we need? this was always the question. Now there is Auto Scaling, a service that automatically scales up or down with on demand systems. 
 
@@ -135,7 +135,7 @@ Make Securitygroup before loadbalancer can be made.
 
 ![VPC](../00_includes/AWS11Sec-groups.png)
 
-Create LoadBalacer
+Create LoadBalancer
 
 ![loadbalancer](../00_includes/LoadbalancerAWS11.png)
 
