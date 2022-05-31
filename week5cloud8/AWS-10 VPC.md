@@ -110,10 +110,22 @@ Key pair: no key pair
 Connect to your server using the public IPv4 DNS name.
 
 ### Sources
-[List your sources you used for solving the exercise]
+For the Key Terms i used Google:
+
+For excercises i used AWS knolledge
+
+[ElasticIP](https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1#)
+
+[EC2](https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1#)
+
+[VPC](https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1#)
+
+[secGroups](https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1#)
+
+[subnets](https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1#)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Getting used to where to install what in the programs, VPC, EC2, routing, subs.. 
 
 ### Results
 
