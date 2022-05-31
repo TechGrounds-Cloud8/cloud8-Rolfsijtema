@@ -117,4 +117,4 @@ Connect to your server using the public IPv4 DNS name.
 
 ### Results
 
-![awsexample](../00_includes/ExampleAWS10.png)
+![awsexample](../00_includes/ExampleAWS10.png).
