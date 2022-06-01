@@ -93,4 +93,5 @@ Study the 6 pillars
 [Give a short description of your challanges you encountered, and how you solved them.]
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+![6pillars](../00_includes/6pillars.png)
