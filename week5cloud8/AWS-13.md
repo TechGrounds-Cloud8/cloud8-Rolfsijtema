@@ -33,23 +33,56 @@ AWS Elastic Beanstalk automatically handles the details:
 Amazon CloudFront is a web service that gives businesses and web application developers an easy and cost effective way to distribute content with low latency and high data transfer speeds.
 
 Amazon CloudFront provides a simple API that lets you:
-- Distribute content with low latency 
+- Distribute content with low latency (fast dielivery of content)
 - high data transfer rates by serving requests using a network of edge locations around the world.
 - Get started without negotiating contracts and minimum commitments.
 
 Key Notations Cloudfront
 - Routing
-- Edge locations
+- Edge locations (caches the content)
 - More availability
 
 ![edge](../00_includes/Edgelocations.png)
 
-
+![lambda](../00_includes/Lambda.png)
 
 **Route53**
 
+- Highly reliable
+Ensures a consistent ability to route applications
+- Scalable
+Automatically handles large queries without the users interactions
+- Easy to use
+Easy to configure DNS settings and provides fast response to queries
+- Cost effective
+pay only for the service used
+- Secure
+the user secures the acces rights by integrating route53 with AWS-IAM. 
 
+![route53](../00_includes/route53.png)
 
+Way's of Routing: 
+
+- simple routing policy
+
+DNS 1 to 1 : webserver to website
+
+**Failover Routing**
+
+When something failes you want to failover to another resource, ships the traffic to the healty resource. Anything from a bucket S3
+
+**Geolocation Routing**
+
+Looks at locations, country's
+A user from France you want to sent to the French website, Others maybe to the English website. 
+It localized content on:
+- Continent level
+- Geographic level
+- State level (only in U.S.) 
+
+**Geoproximity Routing**
+
+- Routes the traffic 
 ## Exercise
 
 
@@ -61,8 +94,11 @@ Key Notations Cloudfront
 
 [Cloudfront](https://www.youtube.com/watch?v=sQNONcj0cvc)
 
+[Route53](https://www.youtube.com/watch?v=BtiS0QyiTK8)
+
+
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Understand the positions of all the apllications. 
 
 ### Results
 [Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
