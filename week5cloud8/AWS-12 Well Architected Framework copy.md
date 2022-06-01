@@ -90,7 +90,7 @@ Study the 6 pillars
 [6th pillar sustainability](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/best-practices-for-sustainability-in-the-cloud.html)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+None
 
 ### Results
 
