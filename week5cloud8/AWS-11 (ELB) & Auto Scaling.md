@@ -157,5 +157,9 @@ Create Autoscaling
 
 ![loadtest](../00_includes/Load%20test.png)
 
+Results: 
+
+![instances](../00_includes/AWS11-Instances.png)
+
 
 
