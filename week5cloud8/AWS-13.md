@@ -37,7 +37,12 @@ Amazon CloudFront provides a simple API that lets you:
 - high data transfer rates by serving requests using a network of edge locations around the world.
 - Get started without negotiating contracts and minimum commitments.
 
+Key Notations Cloudfront
+- Routing
+- Edge locations
+- More availability
 
+![edge](../00_includes/Edgelocations.png)
 
 
 
