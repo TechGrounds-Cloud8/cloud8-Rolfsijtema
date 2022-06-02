@@ -114,7 +114,16 @@ The Amazon RDS Data Service API contains several data types that various actions
 
 ## Exercise
 
-Create EFS
+Handige vragen die je in gedachten kan (/moet) houden tijdens je onderzoek naar de onderwerpen:
+Waar is X voor?
+Hoe past X / vervangt X in een klassieke setting?
+Hoe kan ik X combineren met andere diensten?
+Wat is het verschil tussen X en andere gelijksoortige diensten?
+
+Een handige lijst van taken die je praktisch moet kunnen:
+Waar kan ik deze dienst vinden in de console?
+Hoe zet ik deze dienst aan?
+Hoe kan ik deze dienst koppelen aan andere resources?
 
 ### Sources
 
