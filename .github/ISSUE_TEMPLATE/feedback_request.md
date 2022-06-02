@@ -32,4 +32,4 @@ Template for peers for review:
 - Are the experienced problems and solutions described well?
 ```
 
-Share the link to this issue with your peers.
+Share the link to this issue with your peers..
