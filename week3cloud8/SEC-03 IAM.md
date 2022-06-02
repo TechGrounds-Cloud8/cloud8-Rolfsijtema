@@ -20,7 +20,7 @@ Something the user is.
 ## Exercise
 The difference between authentication and authorization.
 
-Authorization is the profile of a user, for example bankemployees have diffirent options within the software.  Employee 1 can only put in a order to buy stocks, user 2 has to check an execute this order. This is a saver way to fight against fraud.   
+Authorization is the profile of a user, for example bankemployees have diffirent options within the software.  Employee 1 can only put in a order to buy stocks, user 2 has to check an execute this order. This is a saver way to fight against fraud..
 
 Authentication is for example the personal user credentials that every employee has to fill in, in order to prove it is him/her, also hardware like a card may be put in a keyboard to acces the computer login. Also apps, sms, etc...
 
