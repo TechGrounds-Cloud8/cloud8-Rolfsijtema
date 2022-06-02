@@ -29,7 +29,7 @@ Er zijn 3 IP adres bereiken gereserveerd voor privé netwerken.
 172.16.0.0 - 172.31.255.255
 10.0.0.0 - 10.255.255.255
 
-Important note: In AWS you need to turn-on the ipv6 option!!! otherwise it only works with IPV4 adresses
+Important note: In AWS you need to turn-on the ipv6 option!!! otherwise it only works with IPV4 adresses.
 
 ### Sources
 Therms searched via Google and [www.quora.com]
