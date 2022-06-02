@@ -24,7 +24,7 @@ Pull / Clone een repository van je peer.
 
 Opdracht 2:
 Maak een nieuwe repository aan voor je portfolio
-Push je notities naar de repository
+Push je notities naar de repository.
 Deel deze repository met je Learning Coach
 
 
