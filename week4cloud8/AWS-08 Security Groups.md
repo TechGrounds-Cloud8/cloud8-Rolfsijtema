@@ -34,7 +34,7 @@ Security Groups.  (Network level)
 - Anything that is not allowed, is always denied 
 - 1 default rule allows all Outbound traffic. 
 
-NACL: NETWORK ACCES CONTROL LIST 
+NACL: NETWORK ACCES CONTROL LIST .
 - Extra layer of security
 - A NACL has both explicit allow and deny rules, stateless firewalls.
 - You allow rules manually
