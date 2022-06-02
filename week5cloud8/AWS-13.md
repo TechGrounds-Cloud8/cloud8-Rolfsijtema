@@ -15,7 +15,6 @@ Hoe kan ik deze dienst koppelen aan andere resources?
 
 ## Key terminology
 
-
 **Elastic Beanstalk** 
 With AWS Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without worrying about the infrastructure that runs those applications. 
 
@@ -85,6 +84,14 @@ It localized content on:
 Amazon elastic File system
 system on an Amazon EC2 instance, and then read and write data to and from your file system. You can mount an Amazon EFS file system in your virtual private cloud (VPC), through the Network File System versions 4.0 and 4.1 (NFSv4) protocol. We recommend using a current generation Linux NFSv4.1 client, such as those found in the latest Amazon Linux, Amazon Linux 2, Red Hat, Ubuntu, and macOS Big Sur AMIs, in conjunction with the Amazon EFS mount helper
 
+**Regional** to create a file system that uses Standard storage classes. Standard storage classes store file system data and metadata redundantly across all Availability Zones within an AWS Region. Regional offers the highest levels of availability and durability.
+
+**One Zone** to create a file system that uses One Zone storage classes. One Zone storage classes store file sytem data and metadata redundantly within a single Availability Zone which makes it less expensive than Standard storage classes.
+
+Because EFS One Zone storage classes store data in a single AWS Availability Zone, data stored in these storage classes may be lost in the event of a disaster or other fault that affects all copies of the data within the Availability Zone, or in the event of Availability Zone destruction resulting from disasters, such as earthquakes and floods.
+
+![Route53](../00_includes/route53.png)
+
 **RDS** & **Aurora**
 
 Amazon rds provides an HTTP endpoint to run SQL statements on an Amazon Aurora Serverless DB cluster. To run these statements, you work with the Data Service API.
@@ -107,6 +114,7 @@ The Amazon RDS Data Service API contains several data types that various actions
 
 ## Exercise
 
+Create EFS
 
 ### Sources
 
@@ -118,9 +126,13 @@ The Amazon RDS Data Service API contains several data types that various actions
 
 [Route53](https://www.youtube.com/watch?v=BtiS0QyiTK8)
 
+[EFS](https://us-east-1.console.aws.amazon.com/efs?region=us-east-1#/get-started)
+
+[RDS/AURORA](https://www.youtube.com/watch?v=vw5EO5Jz8-8)
 
 ### Overcome challanges
 Understand the positions of all the apllications. 
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+
