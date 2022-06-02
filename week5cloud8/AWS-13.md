@@ -80,9 +80,31 @@ It localized content on:
 - Geographic level
 - State level (only in U.S.) 
 
-**Geoproximity Routing**
+**EFS**
 
-- Routes the traffic 
+Amazon elastic File system
+system on an Amazon EC2 instance, and then read and write data to and from your file system. You can mount an Amazon EFS file system in your virtual private cloud (VPC), through the Network File System versions 4.0 and 4.1 (NFSv4) protocol. We recommend using a current generation Linux NFSv4.1 client, such as those found in the latest Amazon Linux, Amazon Linux 2, Red Hat, Ubuntu, and macOS Big Sur AMIs, in conjunction with the Amazon EFS mount helper
+
+**RDS** & **Aurora**
+
+Amazon rds provides an HTTP endpoint to run SQL statements on an Amazon Aurora Serverless DB cluster. To run these statements, you work with the Data Service API.
+
+**Aurora**
+The Amazon RDS Data Service API contains several data types that various actions use. 
+
+- ArrayValue
+- ColumnMetadata
+- Field
+- Record
+- ResultFrame
+- ResultSetMetadata
+- ResultSetOptions
+- SqlParameter
+- SqlStatementResult
+- StructValue
+- UpdateResult
+- Value
+
 ## Exercise
 
 
