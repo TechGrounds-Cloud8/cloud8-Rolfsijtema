@@ -145,8 +145,14 @@ Understand the positions of all the apllications.
 
 ### Results
 
-Een handige lijst van taken die je praktisch moet kunnen:
+**create EFS**
 
-Waar kan ik deze dienst vinden in de console?
-Hoe zet ik deze dienst aan?
-Hoe kan ik deze dienst koppelen aan andere resources?
+![EFScreate1](../00_includes/EFScreate.png)
+
+![EFScreate1](../00_includes/EFSdetails.png)
+
+![EFScreate1](../00_includes/EFSdone.png)
+
+![LinuxEFSmount](../00_includes/connect%20via%20ec2tofolder.png)
+
+![resultEFStest](../00_includes/resultEC2test.png)
