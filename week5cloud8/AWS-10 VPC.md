@@ -27,7 +27,7 @@ Many services within AWS need a VPC for example:
 - ECS Elastic Container Service
 
 **CIDR** 
-CIDR: Classless Inter-Domain Routing 
+CIDR: Classless Inter-Domain Routing.
 
 When creating a VPC you need to choose a CIDR BLOCK
 
