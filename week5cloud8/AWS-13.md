@@ -1,6 +1,8 @@
 # Files, AppServices, CDN, DNS, Database
 
-Study and learn practicall things on ur own: 
+Study and learn practicall things on ur own, where to find them, and how to install. 
+
+ALso find diffirences between the appl. compare them. 
 
 Handige vragen die je in gedachten kan (/moet) houden tijdens je onderzoek naar de onderwerpen:
 Waar is X voor?
@@ -143,4 +145,8 @@ Understand the positions of all the apllications.
 
 ### Results
 
+Een handige lijst van taken die je praktisch moet kunnen:
 
+Waar kan ik deze dienst vinden in de console?
+Hoe zet ik deze dienst aan?
+Hoe kan ik deze dienst koppelen aan andere resources?
