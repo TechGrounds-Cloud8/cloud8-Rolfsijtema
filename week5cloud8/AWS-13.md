@@ -90,7 +90,6 @@ system on an Amazon EC2 instance, and then read and write data to and from your 
 
 Because EFS One Zone storage classes store data in a single AWS Availability Zone, data stored in these storage classes may be lost in the event of a disaster or other fault that affects all copies of the data within the Availability Zone, or in the event of Availability Zone destruction resulting from disasters, such as earthquakes and floods.
 
-![Route53](../00_includes/route53.png)
 
 **RDS** & **Aurora**
 
