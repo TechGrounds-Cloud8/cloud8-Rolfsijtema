@@ -23,7 +23,7 @@ https://www.markdownguide.org/basic-syntax/
 
 Overcome challanges
 
-VScode heeft 2 opties,  je kunt via een cheat sheet met de codes * * ** ** je tekstregels gaan schrijven, maar er is ook een axtension binnen VScode welke je kunt enablen en zo letterlijk bold/italic aanklikken en de tekstkleur aanpassen.
+VScode heeft 2 opties,  je kunt via een cheat sheet met de codes * * ** ** je tekstregels gaan schrijven, maar er is ook een axtension binnen VScode welke je kunt enablen en zo letterlijk bold/italic aanklikken en de tekstkleur aanpassen..
 
 Exercise
 
