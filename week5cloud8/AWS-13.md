@@ -156,3 +156,5 @@ Understand the positions of all the apllications.
 ![LinuxEFSmount](../00_includes/connect%20via%20ec2tofolder.png)
 
 ![resultEFStest](../00_includes/resultEC2test.png)
+
+**RDS and Aurora**
