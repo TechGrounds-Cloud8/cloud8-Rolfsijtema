@@ -6,7 +6,7 @@
 
 ## Exercise
 
-
+.
 ### Sources
 [List your sources you used for solving the exercise]
 
