@@ -1,4 +1,4 @@
-# [Files, AppServices, CDN, DNS, Database]
+# Files, AppServices, CDN, DNS, Database
 
 Study and learn practicall things on ur own: 
 
