@@ -53,8 +53,8 @@ Key Notations Cloudfront
 What is "subject" for?
 What does "subject" replace compared to how it was done before?
 Can i and how to combine "subject" with other services?
-What is the difference between "subject" and other similar services.
-</ol>
+What is the difference between "subject" and other similar services</ol>
+
 - Highly reliable
 Ensures a consistent ability to route applications
 - Scalable
