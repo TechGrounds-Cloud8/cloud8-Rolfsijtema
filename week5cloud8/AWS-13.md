@@ -18,6 +18,13 @@ Hoe kan ik deze dienst koppelen aan andere resources?
 ## Key terminology
 
 **Elastic Beanstalk** 
+
+1. What is "subject" for?
+2. What does "subject" replace compared to how it was done before?
+3. Can i and how to combine "subject" with other services?
+4. What is "subject" for?
+5. What is the difference between "subject" and other similar services
+
 With AWS Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without worrying about the infrastructure that runs those applications. 
 
 - You simply upload your applications.
@@ -30,6 +37,12 @@ AWS Elastic Beanstalk automatically handles the details:
 - application health monitoring.
 
 **CloudFront** CDN
+
+1. What is "subject" for?
+2. What does "subject" replace compared to how it was done before?
+3. Can i and how to combine "subject" with other services?
+4. What is "subject" for?
+5. What is the difference between "subject" and other similar services
 
 Amazon CloudFront is a web service that gives businesses and web application developers an easy and cost effective way to distribute content with low latency and high data transfer speeds.
 
@@ -48,12 +61,11 @@ Key Notations Cloudfront
 ![lambda](../00_includes/Lambda.png)
 
 **Route53**
-
-<ol>
-What is "subject" for?
-What does "subject" replace compared to how it was done before?
-Can i and how to combine "subject" with other services?
-What is the difference between "subject" and other similar services</ol>
+1. What is "subject" for?
+2. What does "subject" replace compared to how it was done before?
+3. Can i and how to combine "subject" with other services?
+4. What is "subject" for?
+5. What is the difference between "subject" and other similar services
 
 - Highly reliable
 Ensures a consistent ability to route applications
@@ -68,29 +80,22 @@ the user secures the acces rights by integrating route53 with AWS-IAM.
 
 ![route53](../00_includes/route53.png)
 
-Way's of Routing: 
-
-- simple routing policy
-
-DNS 1 to 1 : webserver to website
-
-**Failover Routing**
-
-When something failes you want to failover to another resource, ships the traffic to the healty resource. Anything from a bucket S3
-
-**Geolocation Routing**
-
-Looks at locations, country's
-A user from France you want to sent to the French website, Others maybe to the English website. 
-It localized content on:
-- Continent level
-- Geographic level
-- State level (only in U.S.) 
 
 **EFS**
 
+1. What is "EFS" for?
+
 Amazon elastic File system
-system on an Amazon EC2 instance, and then read and write data to and from your file system. You can mount an Amazon EFS file system in your virtual private cloud (VPC), through the Network File System versions 4.0 and 4.1 (NFSv4) protocol. We recommend using a current generation Linux NFSv4.1 client, such as those found in the latest Amazon Linux, Amazon Linux 2, Red Hat, Ubuntu, and macOS Big Sur AMIs, in conjunction with the Amazon EFS mount helper
+system on an Amazon EC2 instance, and then read and write data to and from your file system. You can mount an Amazon EFS file system in your virtual private cloud (VPC), through the Network File System versions 4.0 and 4.1 (NFSv4) protocol. 
+
+2. What does "subject" replace compared to how it was done before?
+3. Can i and how to combine "subject" with other services?
+4. What is "subject" for?
+5. What is the difference between "subject" and other similar services
+
+
+
+
 
 **Regional** to create a file system that uses Standard storage classes. Standard storage classes store file system data and metadata redundantly across all Availability Zones within an AWS Region. Regional offers the highest levels of availability and durability.
 
@@ -101,9 +106,46 @@ Because EFS One Zone storage classes store data in a single AWS Availability Zon
 
 **RDS** & **Aurora**
 
-Amazon rds provides an HTTP endpoint to run SQL statements on an Amazon Aurora Serverless DB cluster. To run these statements, you work with the Data Service API.
+1. What is RDS for?
+
+- Amazon Relational Database Service (RDS) is a managed SQL database service provided by Amazon Web Services (AWS). 
+- Amazon RDS supports an array of database engines to store and organize data. It also helps with relational database management tasks, such as data migration, backup, recovery and patching.
+
+2. What does "RDS" replace compared to how it was done before?
+
+- What is the difference between RDS and EC2?
+RDS offers Provisioned IOPS or PIOPS to achieve fast, predictable, and consistent Input/Output performance. EC2 allows you to meet unique performance, replication, archival or DR requirements by giving you the required flexibility. You can choose the EBS (SSD) volume as per the your need.
+
+- Is RDS same as S3?
+While S3 is strongly consistent, its consistency is limited to single storage operations. On the other hand, RDS supports transactions that allow one to execute a series of operations while maintaining consistency and even providing an option to roll back the operations in case of the steps go wrong.
+
+3. Can i and how to combine "subject" with other services?
+
+While setting up RDS you may choose: Aurora, MySQL, MariaDB, PostgreSQL, Oracle, MicrosoftSQL (SQL-server)
+
+4. What is "RDS" for?
+
+Amazon RDS helps organizations handle relational database management tasks such as migration, backup, recovery and patching. Some of the main features of Amazon RDS are replication, high performance storage and failure detection. One of the biggest advantages of Amazon RDS is its ease of use.
+
+5. What is the difference between "RDS" and other similar services
+
+Amazon rds provides an HTTP endpoint to run SQL statements on an Amazon Aurora Serverless DB cluster. To run these statements, you work with the Data Service API. Amazon RDS is a PaaS as it only provides a platform or a set of tools to manage your database instances. AWS is Iaas, but the RDS provided by the AWS is PaaS.
+
 
 **Aurora**
+
+1. What is "Aurora" for?
+
+Image result for What is Aurora aws
+Amazon Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility. 
+
+2. What does "subject" replace compared to how it was done before?
+Aurora gives you the performance and availability of commercial-grade databases at one-tenth the cost.
+
+3. Can i and how to combine "subject" with other services?
+4. What is "subject" for?
+5. What is the difference between "subject" and other similar services
+
 The Amazon RDS Data Service API contains several data types that various actions use. 
 
 - ArrayValue
