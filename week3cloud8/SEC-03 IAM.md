@@ -18,7 +18,7 @@ Something the user has.
 Something the user is.
 
 ## Exercise
-The difference between authentication and authorization.
+The difference between authentication and authorization..
 
 Authorization is the profile of a user, for example bankemployees have diffirent options within the software.  Employee 1 can only put in a order to buy stocks, user 2 has to check an execute this order. This is a saver way to fight against fraud..
 

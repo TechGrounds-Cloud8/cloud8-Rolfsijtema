@@ -32,7 +32,7 @@ Understanding the way of calculating the BASE2 or Base16, divide or multiply, af
 Counting in base 2 
 Base 2 is called: Binary Numbers calculations are multiplied bij 2
 You can only write a 0 or 1,  2 is no option! than you get 1-0  
-1 means on and 0 means off
+1 means on and 0 means off.
 0 0 0 1   numerical value 20
 0 0 1 0   numerical value 21
 0 1 0 0   numerical value 22

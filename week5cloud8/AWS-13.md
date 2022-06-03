@@ -49,6 +49,12 @@ Key Notations Cloudfront
 
 **Route53**
 
+<ol>
+What is "subject" for?
+What does "subject" replace compared to how it was done before?
+Can i and how to combine "subject" with other services?
+What is the difference between "subject" and other similar services.
+</ol>
 - Highly reliable
 Ensures a consistent ability to route applications
 - Scalable
@@ -158,3 +164,7 @@ Understand the positions of all the apllications.
 ![resultEFStest](../00_includes/resultEC2test.png)
 
 **RDS and Aurora**
+
+![aurora](../00_includes/Aurora.png)
+
+![auroradiagram](../00_includes/AuroraDiagram.png)
