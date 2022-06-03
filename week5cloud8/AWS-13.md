@@ -4,11 +4,11 @@ Study and learn practicall things on ur own, where to find them, and how to inst
 
 ALso find diffirences between the appl. compare them. 
 
-Handige vragen die je in gedachten kan (/moet) houden tijdens je onderzoek naar de onderwerpen:
-Waar is X voor?
-Hoe past X / vervangt X in een klassieke setting?
-Hoe kan ik X combineren met andere diensten?
-Wat is het verschil tussen X en andere gelijksoortige diensten?
+1. What is "subject" for?
+2. What does "subject" replace compared to how it was done before?
+3. Can i and how to combine "subject" with other services?
+4. What is "subject" for?
+5. What is the difference between "subject" and other similar services
 
 Een handige lijst van taken die je praktisch moet kunnen:
 Waar kan ik deze dienst vinden in de console?
@@ -107,7 +107,8 @@ Because EFS One Zone storage classes store data in a single AWS Availability Zon
 **RDS** & **Aurora**
 
 1. What is RDS for?
-
+ 
+- Amazon RDS is a PaaS as it only provides a platform or a set of tools to manage your database instances. AWS is Iaas, but the RDS provided by the AWS is PaaS.
 - Amazon Relational Database Service (RDS) is a managed SQL database service provided by Amazon Web Services (AWS). 
 - Amazon RDS supports an array of database engines to store and organize data. It also helps with relational database management tasks, such as data migration, backup, recovery and patching.
 
@@ -119,7 +120,7 @@ RDS offers Provisioned IOPS or PIOPS to achieve fast, predictable, and consisten
 - Is RDS same as S3?
 While S3 is strongly consistent, its consistency is limited to single storage operations. On the other hand, RDS supports transactions that allow one to execute a series of operations while maintaining consistency and even providing an option to roll back the operations in case of the steps go wrong.
 
-3. Can i and how to combine "subject" with other services?
+3. Can i and how to combine "RDS" with other services?
 
 While setting up RDS you may choose: Aurora, MySQL, MariaDB, PostgreSQL, Oracle, MicrosoftSQL (SQL-server)
 
@@ -210,3 +211,8 @@ Understand the positions of all the apllications.
 ![aurora](../00_includes/Aurora.png)
 
 ![auroradiagram](../00_includes/AuroraDiagram.png)
+
+**results**
+
+Create DB
+![createDB](../00_includes/RDSAURORADB.png)
