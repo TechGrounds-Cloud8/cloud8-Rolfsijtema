@@ -2,6 +2,8 @@
 
 Learn about the Support plans and there diffirences, What is Elastic Container Service, Trusted Advisory, AWS config and Cloud Trail. 
 
+## Exercise study: 
+
 **ECS**
 Amazon Elastic Container Service:
 Run highly secure, reliable, and scalable containers
@@ -106,6 +108,7 @@ A Technical Account Manager (TAM) is your designated technical point of contact 
 - Access to subject matter experts
 Cloud Support Engineers, Solutions Architects, Technical Account Managers, and product teams are available to provide guidance and help as needed. The AWS Trust & Safety team assists you when your AWS resources are used to engage in abusive behaviors, such as spam, port scanning, denial-of-service (DoS) attacks, or malware.
 
+[importantsheet](https://aws.amazon.com/premiumsupport/plans/)
 
 **Trusted Advisor**
 
@@ -136,22 +139,10 @@ Trusted Advisor can help improve the reliability of your services. Examples incl
 - Service quotas/limits
 Service quotas are the maximum number of resources that you can create in an AWS account.  AWS implements quotas to provide highly available and reliable service to all customers, and protects you from unintentional spend. Trusted Advisor will notify you once you reach more than 80% of a service quota. You can then follow recommendations to delete resources or request a quota increase.
 
-
-
-
-
 **AWS Config**
 
+
 **AWS Cloud Trail**
-
-## Exercise
-
-Study:
-ECS
-AWS Support Plans
-Trusted Advisor
-AWS Config
-AWS Cloud Trail
 
 ### Sources
 
