@@ -52,9 +52,7 @@ Amazon CloudFront provides a simple API that lets you:
 - Get started without negotiating contracts and minimum commitments.
 
 Key Notations Cloudfront
-- Routing
 - Edge locations (caches the content)
-- More availability
 
 ![edge](../00_includes/Edgelocations.png)
 
