@@ -214,5 +214,7 @@ Understand the positions of all the apllications.
 
 **results**
 
-Create DB
+- Create DB RDS with Aurora
 ![createDB](../00_includes/RDSAURORADB.png)
+
+![connectvias3](../00_includes/Connectvias3.png)
