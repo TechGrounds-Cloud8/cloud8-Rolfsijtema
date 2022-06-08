@@ -91,10 +91,6 @@ system on an Amazon EC2 instance, and then read and write data to and from your 
 4. What is "subject" for?
 5. What is the difference between "subject" and other similar services
 
-
-
-
-
 **Regional** to create a file system that uses Standard storage classes. Standard storage classes store file system data and metadata redundantly across all Availability Zones within an AWS Region. Regional offers the highest levels of availability and durability.
 
 **One Zone** to create a file system that uses One Zone storage classes. One Zone storage classes store file sytem data and metadata redundantly within a single Availability Zone which makes it less expensive than Standard storage classes.
@@ -106,8 +102,8 @@ Because EFS One Zone storage classes store data in a single AWS Availability Zon
 
 1. What is RDS for?
  
-- Amazon RDS is a PaaS as it only provides a platform or a set of tools to manage your database instances. AWS is Iaas, but the RDS provided by the AWS is PaaS.
 - Amazon Relational Database Service (RDS) is a managed SQL database service provided by Amazon Web Services (AWS). 
+- Amazon RDS is a PaaS as it only provides a platform or a set of tools to manage your database instances. AWS is Iaas, but the RDS provided by the AWS is PaaS.
 - Amazon RDS supports an array of database engines to store and organize data. It also helps with relational database management tasks, such as data migration, backup, recovery and patching.
 
 2. What does "RDS" replace compared to how it was done before?

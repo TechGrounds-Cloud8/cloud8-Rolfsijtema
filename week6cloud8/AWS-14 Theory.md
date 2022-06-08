@@ -165,7 +165,17 @@ AWS Config is designed to be your primary tool to perform configuration audit an
 
 **AWS Cloud Trail**
 
+- AWS CloudTrail enables auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage.
+- CloudTrail logs, continuously monitors, and retains account activity related to actions across your AWS infrastructure, giving you control over storage, analysis, and remediation action.
 
+![cloudtrail](../00_includes/Cloudtrail.png)
+
+Benefits: 
+- Protect your organization from penalties using CloudTrail logs to prove compliance with regulations such as SOC, PCI, and HIPAA.
+- Improve your security posture by recording user activity and events, and set up automated workflow rules with Amazon EventBridge.
+- Capture and consolidate user activity and API usage across AWS Regions and accounts on a single,      centrally controlled platform.
+
+![cloudtrail2](../00_includes/Cloudtrail.png)
 
 
 ### Sources
@@ -181,7 +191,7 @@ AWS Config is designed to be your primary tool to perform configuration audit an
 [AWScloudtrail](https://aws.amazon.com/cloudtrail/)
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+None
 
 ### Results
 NVT
