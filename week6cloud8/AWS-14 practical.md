@@ -63,6 +63,8 @@ With AWS Organizations, you can use service control policies (SCPs) to establish
 
 [cloudwatch](https://aws.amazon.com/cloudwatch/)
 
+[dynamoDB](https://www.youtube.com/watch?v=2k2GINpO308)
+
 ### Overcome challanges
 None
 
@@ -110,8 +112,12 @@ Metrix Monitoring CPUUtilization.
 
 ![actionalarm](../00_includes/actionalarm.png)
 
+**DynamoDB**
+
+A fast and flexible NoSQL "DB" DataBase service for any scale
 
 
-DynamoDB
-AWS Lambda
+
+**AWS Lambda**
+
 SNS, SQS, Event Bridge
