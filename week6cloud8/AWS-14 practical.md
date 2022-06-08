@@ -82,19 +82,32 @@ IAM dashboard Overview
 **AWS Cloudwatch**
 
 Create Clouddwatch dashboard
+
 ![cloudwatchdash](../00_includes/Cloudwatchdashboard.png)
+
 Create / choose Metric graph
+
 ![metric](../00_includes/Metricgraph.png)
 Create Alarm
+
 ![alarm1](../00_includes/createwidget.png)
+
 Setup Alarm
+
 ![alarm2](../00_includes/Setupalarm.png)
+
 Matric & Conditions
+
 ![metricconditions](../00_includes/metric%20conditions.png)
+
 Setup Alarm and Action
+
 ![action](../00_includes/AlarmAScaling.png)
-Metrix Monitoring CPUUtilization
+
+Metrix Monitoring CPUUtilization.
+
 ![metrix](../00_includes/Monitormetrixalarm.png)
+
 ![actionalarm](../00_includes/actionalarm.png)
 
 
