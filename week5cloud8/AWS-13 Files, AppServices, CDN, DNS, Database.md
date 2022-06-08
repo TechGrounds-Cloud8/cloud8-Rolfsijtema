@@ -81,7 +81,7 @@ the user secures the acces rights by integrating route53 with AWS-IAM.
 
 **EFS**
 
-1. What is "EFS" for?
+1. What is "EFS" for?.
 
 Amazon elastic File system
 system on an Amazon EC2 instance, and then read and write data to and from your file system. You can mount an Amazon EFS file system in your virtual private cloud (VPC), through the Network File System versions 4.0 and 4.1 (NFSv4) protocol. 
