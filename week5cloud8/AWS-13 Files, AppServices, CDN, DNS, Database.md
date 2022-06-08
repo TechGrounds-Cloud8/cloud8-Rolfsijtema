@@ -94,15 +94,9 @@ Amazon rds provides an HTTP endpoint to run SQL statements on an Amazon Aurora S
 
 1. What is "Aurora" for?
 
-Image result for What is Aurora aws
 Amazon Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility. 
 
-2. What does "subject" replace compared to how it was done before?
 Aurora gives you the performance and availability of commercial-grade databases at one-tenth the cost.
-
-3. Can i and how to combine "subject" with other services?
-4. What is "subject" for?
-5. What is the difference between "subject" and other similar services
 
 The Amazon RDS Data Service API contains several data types that various actions use. 
 
