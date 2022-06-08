@@ -58,8 +58,16 @@ A fast and flexible NoSQL "DB" DataBase service for any scale
 - DynamoDB integreates very well with other AWS services
 - Cost effective usage based payment model
 
+- Export data from DynamoDB to Amazon Simple Storage Service (Amazon S3) and use other AWS services such as Amazon Athena to analyze your data and extract actionable insights.
+- AWS Pricing Calculator now supports DynamoDB.
+- Restore DynamoDB tables even faster.
+- Use Amazon Kinesis Data Streams to capture item-level changes in your DynamoDB tables.
+- Use PartiQL, a SQL-compatible query language, to query, insert, update, and delete table data in DynamoDB.
+- AWS Glue Elastic Views supports DynamoDB as a source to combine and replicate data continuously across multiple databases in near real-time.
+
 SQL:    Relational Database
-NoSQL: Non Relational Database
+NoSQL: None Relational Database
+NoSQL means "Not Only" SQL
 
 
 **AWS Lambda**
@@ -145,7 +153,6 @@ You can create Items with value's
 ![items](../00_includes/dynamoItem.png)
 
 
-
 **AWS Lambda**
 
-SNS, SQS, Event Bridge
+**SNS, SQS, Event Bridge**
