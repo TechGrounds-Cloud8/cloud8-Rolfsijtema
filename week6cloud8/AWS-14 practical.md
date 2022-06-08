@@ -91,6 +91,12 @@ Setup Alarm
 ![alarm2](../00_includes/Setupalarm.png)
 Matric & Conditions
 ![metricconditions](../00_includes/metric%20conditions.png)
+Setup Alarm and Action
+![action](../00_includes/AlarmAScaling.png)
+Metrix Monitoring CPUUtilization
+![metrix](../00_includes/Monitormetrixalarm.png)
+
+
 
 DynamoDB
 AWS Lambda
