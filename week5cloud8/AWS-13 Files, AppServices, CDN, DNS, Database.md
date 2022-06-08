@@ -1,29 +1,10 @@
 # Files, AppServices, CDN, DNS, Database
 
-Study and learn practicall things on ur own, where to find them, and how to install. 
-
-ALso find diffirences between the appl. compare them. 
-
-1. What is "subject" for?
-2. What does "subject" replace compared to how it was done before?
-3. Can i and how to combine "subject" with other services?
-4. What is "subject" for?
-5. What is the difference between "subject" and other similar services
-
-Een handige lijst van taken die je praktisch moet kunnen:
-Waar kan ik deze dienst vinden in de console?
-Hoe zet ik deze dienst aan?
-Hoe kan ik deze dienst koppelen aan andere resources?
+Study and learn practicall things on ur own, where to find them, and how to install.
 
 ## Key terminology
 
-**Elastic Beanstalk** 
-
-1. What is "subject" for?
-2. What does "subject" replace compared to how it was done before?
-3. Can i and how to combine "subject" with other services?
-4. What is "subject" for?
-5. What is the difference between "subject" and other similar services
+**Elastic Beanstalk**
 
 With AWS Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without worrying about the infrastructure that runs those applications. 
 
@@ -37,12 +18,6 @@ AWS Elastic Beanstalk automatically handles the details:
 - application health monitoring.
 
 **CloudFront** CDN
-
-1. What is "subject" for?
-2. What does "subject" replace compared to how it was done before?
-3. Can i and how to combine "subject" with other services?
-4. What is "subject" for?
-5. What is the difference between "subject" and other similar services
 
 Amazon CloudFront is a web service that gives businesses and web application developers an easy and cost effective way to distribute content with low latency and high data transfer speeds.
 
@@ -59,11 +34,6 @@ Key Notations Cloudfront
 ![lambda](../00_includes/Lambda.png)
 
 **Route53**
-1. What is "subject" for?
-2. What does "subject" replace compared to how it was done before?
-3. Can i and how to combine "subject" with other services?
-4. What is "subject" for?
-5. What is the difference between "subject" and other similar services
 
 - Highly reliable
 Ensures a consistent ability to route applications
@@ -81,15 +51,8 @@ the user secures the acces rights by integrating route53 with AWS-IAM.
 
 **EFS**
 
-1. What is "EFS" for?.
-
 Amazon elastic File system
 system on an Amazon EC2 instance, and then read and write data to and from your file system. You can mount an Amazon EFS file system in your virtual private cloud (VPC), through the Network File System versions 4.0 and 4.1 (NFSv4) protocol. 
-
-2. What does "subject" replace compared to how it was done before?
-3. Can i and how to combine "subject" with other services?
-4. What is "subject" for?
-5. What is the difference between "subject" and other similar services
 
 **Regional** to create a file system that uses Standard storage classes. Standard storage classes store file system data and metadata redundantly across all Availability Zones within an AWS Region. Regional offers the highest levels of availability and durability.
 
