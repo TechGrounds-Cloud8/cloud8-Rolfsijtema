@@ -49,6 +49,19 @@ With AWS Organizations, you can use service control policies (SCPs) to establish
 
 **DynamoDB**
 
+A fast and flexible NoSQL "DB" DataBase service for any scale
+
+- Is a Managed NoSQL (Not only SQL) Database optimized for performance at Scale
+- High Availability & Durability
+- Ideal for applications with "known acces Patterns" 
+- Acces through API's / ORM's authorized throught IAM.
+- DynamoDB integreates very well with other AWS services
+- Cost effective usage based payment model
+
+SQL:    Relational Database
+NoSQL: Non Relational Database
+
+
 **AWS Lambda**
 
 **SNS, SQS, Event Bridge**
@@ -63,7 +76,7 @@ With AWS Organizations, you can use service control policies (SCPs) to establish
 
 [cloudwatch](https://aws.amazon.com/cloudwatch/)
 
-[dynamoDB](https://www.youtube.com/watch?v=2k2GINpO308)
+[dynamoDB](https://www.youtube.com/watch?v=2k2GINpO308) 
 
 ### Overcome challanges
 None
@@ -115,6 +128,21 @@ Metrix Monitoring CPUUtilization.
 **DynamoDB**
 
 A fast and flexible NoSQL "DB" DataBase service for any scale
+
+![table1](../00_includes/Table1.png)
+
+After creating Table you can monitor ur tables
+also possible with Cloudwatch
+set alarms etc.. 
+TTL: time to life tables... 
+Make replica's
+Make backups Point in Time Recocery
+
+![monitortable](../00_includes/MonitorTable.png)
+
+You can create Items with value's
+
+![items](../00_includes/dynamoItem.png)
 
 
 
