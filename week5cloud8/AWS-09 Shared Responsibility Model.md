@@ -31,7 +31,7 @@ None
 ### Results
 
 **In general**
-Depending on what your organization’s cloud infrastructure looks like, the responsibility of security actions varies between the cloud user and Amazon Web Services.
+Depending on what your organization’s cloud infrastructure looks like, the responsibility of security actions varies between the cloud user and Amazon Web Services
 
 **Customer Responsibility**
 - Customer Data is put in the cloud by the Customer, so the customer has to make sure it is Encrypted.  
