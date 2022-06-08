@@ -95,6 +95,7 @@ Setup Alarm and Action
 ![action](../00_includes/AlarmAScaling.png)
 Metrix Monitoring CPUUtilization
 ![metrix](../00_includes/Monitormetrixalarm.png)
+![actionalarm](../00_includes/actionalarm.png)
 
 
 
