@@ -1,4 +1,4 @@
-# [ECS, AWS Support Plans, Trusted Advisor]
+# ECS, AWS Support Plans, Trusted Advisor
 
 Learn about the Support plans and there diffirences, What is Elastic Container Service, Trusted Advisory, AWS config and Cloud Trail. 
 
