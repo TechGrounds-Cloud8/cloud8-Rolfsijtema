@@ -145,6 +145,8 @@ Benefits and features
 
 ![sqsworkflow](../00_includes/SQSworkflow.png)
 
+![SQS-API](../00_includes/SQS-api.png)
+
 
 
 **Event Bridge**
