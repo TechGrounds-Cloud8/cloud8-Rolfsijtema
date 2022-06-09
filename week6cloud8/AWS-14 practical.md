@@ -131,15 +131,26 @@ Benefits
 **SQS**
 
 Simple Que Service
-
 Amazon SQS provides queues for high-throughput, system-to-system messaging. 
 You can use queues to decouple heavyweight processes and to buffer and batch work. Amazon SQS stores messages until microservices and serverless applications process them.
 
-Benefits and features
+SQS over API, uses a Middleman, can resend Queue's 
+
+
+Benefits and features SQS
+
 - Highly scalable Standard and FIFO queues
+Queues scale elastically with your application. Nearly unlimited throughput and no limit to the number of messages per queue in Standard queues. First-In-First-Out delivery and exactly once processing in FIFO queues.
+
 - Durability and availability
+Your queues are distributed on multiple servers. Redundant infrastructure provides highly concurrent access to messages.
+
 - Security
+Protection in transit and at rest. Transmit sensitive data in encrypted queues. Send messages in a Virtual Private Cloud.
+
 - Batching
+Send, receive, or delete messages in batches of up to 10 messages or 256KB to save costs.
+
 
 ![queue](../00_includes/Queue.png)
 
@@ -147,10 +158,43 @@ Benefits and features
 
 ![SQS-API](../00_includes/SQS-api.png)
 
-
-
 **Event Bridge**
 
+Amazon EventBridge is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.
+
+When you use Event Bridge
+- You want to publish messages to many subscribers, and use the event data itself to match targets interested certain patterns.
+- Want integration with other SaaS providers such as Shopify, Datadog, Pagerduty, or others.
+
+
+Benefits: 
+
+- Build event-driven architectures
+EventBridge simplifies the process of building event-driven architectures. With EventBridge, your event targets don’t need to be aware of event sources because you can filter and publish directly to EventBridge. There is no setup required. Improve developer agility as well as application resiliency with loosely coupled event-driven architectures.
+
+- Connect SaaS apps
+EventBridge ingests data from supported SaaS applications and routes it to AWS services and SaaS targets (through API destinations - an HTTP invocation endpoint target for events) without writing custom integration code. You can use EventBridge to connect your SaaS apps, or use events from your SaaS apps to trigger workflows.
+
+- Write less custom code
+EventBridge makes it easier to connect applications. You can ingest, filter, transform and deliver events without writing custom code. The EventBridge schema registry stores a collection of easy-to-find event schemas and enables you to download code bindings for those schemas in your IDE so you can represent the event as a strongly-typed object in your code. Automatically add schemas discovered from your event bus to the registry through the schema discovery feature.
+
+- Reduce operational overhead
+With EventBridge, there are no servers to provision, patch, and manage. EventBridge automatically scales based on the number of events ingested, and you pay only for events published by your AWS or SaaS applications. EventBridge has built-in distributed availability, fault-tolerance and a native event archive and replay capability that makes it easier to recover from failures or build a new application state from old events.
+
+- Message Bus – Message Buses are very similar to SNS topics in that they receive events that need to be broadcaster to downstream consumers
+
+- Events – Events are similar to messages in the context of SNS and SQS, just with a fancier name. They consist of JSON blobs that describes the source and payload of the event. Events can also be “scheduled” to run at periodic intervals using a cron expression. This is useful for those of you looking to perform timed batch jobs regularly at a certain time of day.
+
+- Targets – Targets are the downstream recipient of events that are published to the message bus. Very similar to SNS consumers.
+
+- Rules – Rules are the routing logic component for Message Buses. Essentially, you can configure rules such that only when a certain condition is met (within the message data itself), will a message be broadcaster to a specific target.
+
+- An Event Pattern is something that you define that matches the content of the message to a specific target. You can have many rules that all match to different patterns, but only 5 targets per rule. If you’d like to have more, you would need to create a new rule with the same event pattern, but with different configured targets.
+
+SQS, SNS, and Eventbridge are three message orchestration services offered through AWS. 
+Although having somewhat similar names, each of these services provides very different functionalities.
+
+![snssqsevent](../00_includes/SNSSQSEVENTBRIDGE.png)
 
 ## Exercise
 
@@ -172,6 +216,8 @@ Benefits and features
 [SNStoSQS](https://www.youtube.com/watch?v=bktTomENEX8)
 
 [[SQS](https://www.youtube.com/watch?v=CyYZ3adwboc)
+
+[EventBriddge](https://eu-central-1.console.aws.amazon.com/events/home?region=eu-central-1#/)
 
 ### Overcome challanges 
 None
@@ -195,6 +241,7 @@ Created User in Group+keys
 IAM dashboard Overview
 
 ![IAM](../00_includes/IAMdashboard.png)
+
 
 **AWS Cloudwatch**
 
