@@ -69,10 +69,60 @@ SQL:    Relational Database
 NoSQL: None Relational Database
 NoSQL means "Not Only" SQL
 
-
 **AWS Lambda**
 
-**SNS, SQS, Event Bridge**
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+
+You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.
+
+- Run code without provisioning or managing infrastructure. Simply write and upload code as a .zip file or container image.
+CODES: Node JS, Java seashark, Go & Python. 
+- Automatically respond to code execution requests at any scale, from a dozen events per day to hundreds of thousands per second.
+- Save costs by paying only for the compute time you use—by per-millisecond—instead of provisioning infrastructure upfront for peak capacity.
+- Optimize code execution time and performance with the right function memory size. Respond to high demand in double-digit milliseconds with Provisioned Concurrency.
+
+Key product features:
+
+- Extend other AWS services with custom logic
+- Build custom backend services
+- Bring your own code
+- Completely automated administration
+- Built-in fault tolerance
+- Package and deploy functions as container images
+- Automatic scaling
+- Connect to relational databases
+- Fine-grained control over performance
+- Connect to shared file systems
+- Run code in response to Amazon CloudFront requests
+- Orchestrate multiple functions
+- Integrated security model
+- Trust and integrity controls
+- Only pay for what you use
+- Flexible resource model
+- Integrate Lambda with your favorite operational tools
+- Achieve up to 34% better price performance with functions powered by Graviton2
+
+![lambda1](../00_includes/lambda1.png)
+
+**SNS**
+
+Simple Notification Service
+
+Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
+
+The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. 
+Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems, including Amazon SQS queues, AWS Lambda functions, HTTPS endpoints, and Amazon Kinesis Data Firehose, for parallel processing. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
+
+Benefits
+- Simplify and reduce costs with message filtering and batching
+- Ensure accuracy with message ordering and deduplication
+- Increase security with message encryption and privacy
+- Increase durability with message archiving, delivery retries, and DLQ
+- Capture and fan out events from AWS services
+- Send A2P notifications via SMS, mobile push, and email
+
+
+SQS, Event Bridge**
 
 
 ## Exercise
@@ -90,6 +140,12 @@ NoSQL means "Not Only" SQL
 
 [Lambdatheory](https://aws.amazon.com/lambda/)
 
+[SNS-theory](https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
+
+[SNStoSQS](https://www.youtube.com/watch?v=VXsAgYoC1Jc)
+
+
+
 ### Overcome challanges 
 None
 
@@ -98,12 +154,19 @@ None
 **IAM**
 
 Create Users
+
 ![IAM](../00_includes/IAMusers.png)
+
 Create Group
+
 ![IAM](../00_includes/IAMgroup.png)
+
 Created User in Group+keys
+
 ![IAM](../00_includes/IAMcreated.png)
+
 IAM dashboard Overview
+
 ![IAM](../00_includes/IAMdashboard.png)
 
 **AWS Cloudwatch**
@@ -158,39 +221,6 @@ You can create Items with value's
 
 
 **AWS Lambda**
-
-AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
-
-You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.
-
-- Run code without provisioning or managing infrastructure. Simply write and upload code as a .zip file or container image.
-CODES: Node JS, Java seashark, Go & Python. 
-- Automatically respond to code execution requests at any scale, from a dozen events per day to hundreds of thousands per second.
-- Save costs by paying only for the compute time you use—by per-millisecond—instead of provisioning infrastructure upfront for peak capacity.
-- Optimize code execution time and performance with the right function memory size. Respond to high demand in double-digit milliseconds with Provisioned Concurrency.
-
-Key product features:
-
-- Extend other AWS services with custom logic
-- Build custom backend services
-- Bring your own code
-- Completely automated administration
-- Built-in fault tolerance
-- Package and deploy functions as container images
-- Automatic scaling
-- Connect to relational databases
-- Fine-grained control over performance
-- Connect to shared file systems
-- Run code in response to Amazon CloudFront requests
-- Orchestrate multiple functions
-- Integrated security model
-- Trust and integrity controls
-- Only pay for what you use
-- Flexible resource model
-- Integrate Lambda with your favorite operational tools
-- Achieve up to 34% better price performance with functions powered by Graviton2
-
-
 
 **SNS** 
 
