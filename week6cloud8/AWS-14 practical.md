@@ -121,7 +121,9 @@ Benefits
 - Capture and fan out events from AWS services
 - Send A2P notifications via SMS, mobile push, and email
 
-
+![Pubsup](../00_includes/PubSub.png)
+![sms](../00_includes/SMS.png)
+![Mobilepush](../00_includes/Mobilepush.png)
 SQS, Event Bridge**
 
 
