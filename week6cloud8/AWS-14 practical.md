@@ -1,4 +1,4 @@
-# [IAM AWS Cloudwatch DynamoDB AWS Lambda SNS, SQS, Event Bridge]
+# IAM AWS Cloudwatch DynamoDB AWS Lambda SNS, SQS, Event Bridge
 
 Learn about: 
 
