@@ -108,7 +108,10 @@ Key product features:
 
 Simple Notification Service
 
-Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
+Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for:
+
+- application-to-application (A2A) 
+- application-to-person (A2P)
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. 
 Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems, including Amazon SQS queues, AWS Lambda functions, HTTPS endpoints, and Amazon Kinesis Data Firehose, for parallel processing. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
@@ -124,7 +127,27 @@ Benefits
 ![Pubsup](../00_includes/PubSub.png)
 ![sms](../00_includes/SMS.png)
 ![Mobilepush](../00_includes/Mobilepush.png)
-SQS, Event Bridge**
+
+**SQS**
+
+Simple Que Service
+
+Amazon SQS provides queues for high-throughput, system-to-system messaging. 
+You can use queues to decouple heavyweight processes and to buffer and batch work. Amazon SQS stores messages until microservices and serverless applications process them.
+
+Benefits and features
+- Highly scalable Standard and FIFO queues
+- Durability and availability
+- Security
+- Batching
+
+![queue](../00_includes/Queue.png)
+
+![sqsworkflow](../00_includes/SQSworkflow.png)
+
+
+
+**Event Bridge**
 
 
 ## Exercise
@@ -144,9 +167,9 @@ SQS, Event Bridge**
 
 [SNS-theory](https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
 
-[SNStoSQS](https://www.youtube.com/watch?v=VXsAgYoC1Jc)
+[SNStoSQS](https://www.youtube.com/watch?v=bktTomENEX8)
 
-
+[[SQS](https://www.youtube.com/watch?v=CyYZ3adwboc)
 
 ### Overcome challanges 
 None
