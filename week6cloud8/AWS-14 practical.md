@@ -86,7 +86,11 @@ NoSQL means "Not Only" SQL
 
 [dynamoDB](https://www.youtube.com/watch?v=2k2GINpO308) 
 
-### Overcome challanges
+[lambda explained](https://www.youtube.com/watch?v=97q30JjEq9Y)
+
+[Lambdatheory](https://aws.amazon.com/lambda/)
+
+### Overcome challanges 
 None
 
 ### Results
@@ -155,4 +159,44 @@ You can create Items with value's
 
 **AWS Lambda**
 
-**SNS, SQS, Event Bridge**
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+
+You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.
+
+- Run code without provisioning or managing infrastructure. Simply write and upload code as a .zip file or container image.
+CODES: Node JS, Java seashark, Go & Python. 
+- Automatically respond to code execution requests at any scale, from a dozen events per day to hundreds of thousands per second.
+- Save costs by paying only for the compute time you use—by per-millisecond—instead of provisioning infrastructure upfront for peak capacity.
+- Optimize code execution time and performance with the right function memory size. Respond to high demand in double-digit milliseconds with Provisioned Concurrency.
+
+Key product features:
+
+- Extend other AWS services with custom logic
+- Build custom backend services
+- Bring your own code
+- Completely automated administration
+- Built-in fault tolerance
+- Package and deploy functions as container images
+- Automatic scaling
+- Connect to relational databases
+- Fine-grained control over performance
+- Connect to shared file systems
+- Run code in response to Amazon CloudFront requests
+- Orchestrate multiple functions
+- Integrated security model
+- Trust and integrity controls
+- Only pay for what you use
+- Flexible resource model
+- Integrate Lambda with your favorite operational tools
+- Achieve up to 34% better price performance with functions powered by Graviton2
+
+
+
+**SNS** 
+
+**SQS**  
+
+**Event Bridge**
+
+
+
