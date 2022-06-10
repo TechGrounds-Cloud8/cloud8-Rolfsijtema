@@ -21,7 +21,6 @@ What is Cloudfront:
 - Lower Latency because the end-users are closer to the Edge-server-locations compare to the Origin-server. 
 
 
-
 - Global Edge Network
 
 	- On the slide you find an example of Edge-locations that are located around the world.  
@@ -56,8 +55,6 @@ Summary:
 * It is growing constantly
 * 
 * S3 is very compatible with Cloudfront
-
-
 
 
 

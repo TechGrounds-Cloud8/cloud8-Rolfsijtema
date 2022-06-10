@@ -113,6 +113,10 @@ The Amazon RDS Data Service API contains several data types that various actions
 - UpdateResult
 - Value
 
+**SQL NoSQL**
+ 
+The key difference between a NoSQL and SQL is that a SQL database is considered a relational database. A relational database stores data in tables, which are organized into columns. Each column stores one datatype (integer, real number, string, date etc.) and each row represents an instance of the table. Non-relational databases do not store data in tables- instead there are multiple ways to store data in NoSQL databases (Key-value, Document-based, Column-based). I will briefly summarize these 3 below.
+
 ## Exercise
 Study
 
