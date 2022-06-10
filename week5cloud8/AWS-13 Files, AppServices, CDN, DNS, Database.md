@@ -130,6 +130,10 @@ Study
 
 [RDS/AURORA](https://www.youtube.com/watch?v=vw5EO5Jz8-8)
 
+[SQL-NoSQL](https://medium.com/@mark.rethana/introduction-to-nosql-databases-c5b43f3ca1cc)
+
+![SQLnoSQL](../00_includes/SQL-NoSQL.png)
+
 ### Overcome challanges
 Understand the positions of all the apllications. 
 
