@@ -17,10 +17,17 @@ AWS Data Pipeline is a web service that you can use to automate the movement and
 - Amazon LightSail provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud.
 - LightSail provides preconfigured virtual private servers (instances) that include everything required to deploy and application or create a database.
 - Deploying a server on LightSail is extremely easy and does not require knowledge of how to configure VPCs, security groups, network ACLs etc.
+- Managed MySQL database
+
 
 **AWS Lambda**
-AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. Lambda is a compute service that lets you run code without provisioning or managing servers. 
+- AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. 
+- Lambda is a compute service that lets you run code without provisioning or managing servers. 
 capacity provisioning and automatic scaling, code monitoring and logging.
+- Lambda functions scale out rather than up running multiple invocations of the function in parallel
+
+**The Scale-Out**
+- Computing on AWS solution helps customers deploy and operate a multiuser environment for computationally intensive workflows, such as computer-aided engineering (CAE). 
 
 **AWS CodeDeploy** 
 AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Lambda, and your on-premises servers. 
@@ -71,12 +78,14 @@ Containers are packaged software that runs in a Docker image. Services such as A
 - The Amazon Linux container image is built from the same software components that are included in the Amazon Linux AMI.
 - Amazon Linux 2 AMI run's Docker Images
 
-**ECR** Amazon Elastic Container Registry (ECR), an image registry for storing and quickly retrieving Docker images.
+**ECR** 
+- Amazon Elastic Container Registry (ECR), an image registry for storing and quickly retrieving Docker images.
+- Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
+
 
 **ECS**
 - Amazon Elastic Container Service (ECS) is a highly scalable, high performance container management 
 - service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances.
-
 
 
 **Multiple applications running on EC2** 
@@ -91,8 +100,9 @@ Containers are packaged software that runs in a Docker image. Services such as A
 **elastic web-scale**  (is in EC2)
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
 
-**automatically scale EC2**
-Auto Scaling automates the process of adding (scaling up) OR removing (scaling down) EC2 instances based on the traffic demand for your application.
+**auto scaling EC2**
+- Auto Scaling automates the process of adding (scaling up) OR removing (scaling down) EC2 instances based on the traffic demand for your application.
+- Amazon EC2 Auto Scaling is configured within the EC2 console and can launch instances within a VPC across multiple AZs.
 
 **Reserved Instance RI**
 Reserved Instances (RI) provide a significant discount (up to 72%) compared to On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone
@@ -137,6 +147,7 @@ Considered a Platform as a Service (PaaS) solution. Supports Java, .NET, PHP, No
 **Lambda**
 - AWS Lambda lets you run code as functions without provisioning or managing servers. 
 - With serverless computing, your application still runs on servers, but all the server management is done by AWS.
+- Lambda-based applications (also referred to as serverless applications) are composed of functions triggered by events.
 
 **Amazon Cognito**
 - Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily.
@@ -165,11 +176,18 @@ Is billed per second, with a minimum of 60 seconds.
 - EBS-backed means the root volume is an EBS volume and storage is persistent. (aanhoudend)
 - Instance store-backed means the root volume is an instance store volume and storage is not persistent. - Both EBS and Instance store volumes are block-based storage devices.
 
+**app-facing services**
+- AWS Lambda and Amazon API Gateway are both app-facing components of the AWS Serverless infrastructure
+
+**Elastic Beanstalk** 
+- Can be used to quickly deploy and manage applications in the AWS Cloud.
+- Developers upload applications and Elastic Beanstalk handles the deployment details of capacity       provisioning, load balancing, auto-scaling, and application health monitoring.
+
+**Amazon CloudWatch**
+Logs to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources
 
 
-
-
-
+vraag 38
 
 
 
