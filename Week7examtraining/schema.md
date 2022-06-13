@@ -6,7 +6,7 @@ Making Practise Exams for:
 
 Monday      13 june: Compute, Storage, Database
 Tuesday     14 June: Migration & Transfer,  Networking & content delivery
-Wensday     15 June: Managemend & Governance, Analitycs
+Wensday     15 June: Managemend & Governance, Analitycs    16:30u Ruben presentatie
 Thursday:   16 June: Security Identity & Compliance
 Fryday:     17 june: Application & Integration
 

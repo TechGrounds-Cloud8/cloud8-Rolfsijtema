@@ -57,6 +57,10 @@ Note:
 
 **Bootstrapping**
 - the execution of automated actions to services such as EC2 and RDS. This is typically in the form of scripts that run when the instances are launched.
+- In computing, a bootstrap loader is the first piece of code that runs when a machine starts, and is responsible for loading the rest of the operating system.
+
+**Userdata** "bootstrap" 
+- eerste stukje code userdata om bijvoorbeeld je webserver op te starten. User is de gebruiker van EC2 niet perse een persoon/account/employee. 
 
 **Containerization**
 Containers are packaged software that runs in a Docker image. Services such as Amazon ECS and Fargate can run Docker containers.
@@ -69,12 +73,97 @@ Containers are packaged software that runs in a Docker image. Services such as A
 
 **ECR** Amazon Elastic Container Registry (ECR), an image registry for storing and quickly retrieving Docker images.
 
+**ECS**
+- Amazon Elastic Container Service (ECS) is a highly scalable, high performance container management 
+- service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances.
 
 
 
+**Multiple applications running on EC2** 
+- If you have multiple EC2 instances that are part of an application, you should deploy them into separate availability zones (AZs).
+- Each AZ has redundant power and is also fed from a different grid.
+- AZs also have low-latency network links which is often advantageous for most applications
+- Regions ---> AZ  avai.zone
+- only 1 VPC needed
+- Grid is "rooster" schedule
+- redundant power is "overloedig" 
+
+**elastic web-scale**  (is in EC2)
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+
+**automatically scale EC2**
+Auto Scaling automates the process of adding (scaling up) OR removing (scaling down) EC2 instances based on the traffic demand for your application.
+
+**Reserved Instance RI**
+Reserved Instances (RI) provide a significant discount (up to 72%) compared to On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone
+- “Reserve capacity” is also a correct answer.
+- “Reduced cost"
+- significant discounts for fixed term contracts?
+
+- Scheduled RI: These are available to launch within the time windows you reserve.
+- Convertible RI: These provide a discount (up to 54% off On-Demand) and the capability to change the attributes of the RI as long as the exchange results in the creation of Reserved Instances of equal or greater value.
+- Standard RIs: These provide the most significant discount (up to 75% off On-Demand) and are best suited for steady-state usage 
+
+**Resource group**
+Resource Group AWS
+A resource group is a collection of AWS resources in the same AWS Region that match tag-based criteria provided in a search query. 
+- A resource group is a collection of resources that share one or more tags or portions of tags. 
+- To create a resource group, you simply identify the tags that contain the items that members of the group should have in common.
+- Resource Groups and a Tag Editor. Resource Groups allow you to easily create, maintain, and view a collection of resources that share common tags.
+- Regions and resources can be combined onto a TAG'
+
+**Reserved Instances** 
+Pricing options 
+- discount (up to 75%) compared to On-Demand pricing 
+- All upfront
+- Partial upfront
+- No upfront
+Dit betreft reserved RI !!!!
+
+**scheduled RI**
+With RIs, you can choose the type that best fits your applications needs.
+- Standard RIs: These provide the most significant discount (up to 75% off On-Demand) and are best suited for steady-state usage.
+- Convertible RIs:
+ These provide a discount (up to 54% off On-Demand) Convertible RIs are best suited for steady-state usage.
+- Scheduled RIs: 
+These are available to launch within the time windows you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month.
+
+**Elastic Beanstalk**
+- AWS Elastic Beanstalk can be used to quickly deploy and manage applications in the AWS Cloud. 
+- Developers upload applications and Elastic Beanstalk handles the deployment details of:
+capacity provisioning, load balancing, auto-scaling, and application health monitoring. 
+Considered a Platform as a Service (PaaS) solution. Supports Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker web applications.
+
+**Lambda**
+- AWS Lambda lets you run code as functions without provisioning or managing servers. 
+- With serverless computing, your application still runs on servers, but all the server management is done by AWS.
+
+**Amazon Cognito**
+- Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily.
+
+**Amazon Linux 2 AMI**
+Is billed per second, with a minimum of 60 seconds.
+
+**auto scaling ec2**
+- Amazon EC2 Auto Scaling launches and terminates instances as demand changes
+- This helps with resiliency and high availability as it can also be set to ensure a minimum number of instances are always available.
+- Stop guessing about capacity
+
+**Spot Instances**
+- In your launch template, you can optionally request Spot Instances with no end date or duration. 
+- Amazon EC2 Spot Instances are spare capacity available at steep discounts compared to the EC2 On-Demand price. 
+
+**On Demand** 
+- With On-Demand instances you pay for hours used with no commitment. 
+- There are no upfront costs so you have maximum flexibility.
+
+**Instance store volumes**
+- Instance-store is over 5x faster than EBS-SSD for uncached reads
 
 
-
+**EBS**
+- EBS-backed means the root volume is an EBS volume and storage is persistent. (aanhoudend)
+- Instance store-backed means the root volume is an instance store volume and storage is not persistent. - Both EBS and Instance store volumes are block-based storage devices.
 
 
 
