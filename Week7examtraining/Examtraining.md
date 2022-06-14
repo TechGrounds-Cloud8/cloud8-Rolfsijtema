@@ -186,6 +186,18 @@ Is billed per second, with a minimum of 60 seconds.
 **Amazon CloudWatch**
 Logs to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources
 
+Relational Database
+- A relational database, or relational database management system (RDMS), stores information in tables. Often, these tables have shared information between them, causing a relationship to form between tables. This is where a relational database gets its name from.
+- Zoeken op bijv: trackname, artist, color, size is relational database. 
+
+Non-relational
+Enceclopedy, zoeken op 1 woord is sneller! 
+
+Type databases: 
+talen: SQL
+Engine: MariaDB, Microsoft SQLserver, Mysql, Oracle, PostgreSQL 
+
+
 
 vraag 38
 
