@@ -1,4 +1,4 @@
-# [Subject]
+# [ISO stack]
 leer wat OSI model inhoud en TCP/IP
 
 ## Key terminology

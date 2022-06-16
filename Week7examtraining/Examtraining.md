@@ -197,7 +197,13 @@ Type databases:
 talen: SQL
 Engine: MariaDB, Microsoft SQLserver, Mysql, Oracle, PostgreSQL 
 
+Data-wharehouse questions: Redshift
 
+SUpport Plans goed bestuderen 
+what is the minimal level that gives you 24/7 support
+Answer: Basic   ;)   strikvraag
+
+All movements of users are saved in: cloudtrail
 
 vraag 38
 
