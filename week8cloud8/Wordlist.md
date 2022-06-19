@@ -1,4 +1,4 @@
-Resources: Bronnen
+Resources: Bronnen, programma;s 
 Front-end:
 Back-end:
 Provisioning: Opzetten van infrastructure for: servers, users, networks, etc...
@@ -49,3 +49,10 @@ DDoS: distributed denial of service
 refactoring: andere vorm geven 
 determine: bepalen
 Obtain: get, gain voordelen krijgen
+gather: bijeenkomen, assemble
+establish: vestigen
+Parameter: De stand van de lichtknop is bijvoorbeeld een parameter van het lichtsysteem in de kamer.
+Packet: a unit of date send over the internet
+allocating: toewijzen
+resiliency: veerkrachtig
+descriptors: beschrijving, discribe

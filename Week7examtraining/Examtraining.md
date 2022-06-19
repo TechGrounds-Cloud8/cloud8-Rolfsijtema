@@ -204,6 +204,7 @@ what is the minimal level that gives you 24/7 support
 Answer: Basic   ;)   strikvraag
 
 All movements of users are saved in: cloudtrail
+Serverless Containers: Fargate
 
 vraag 38
 
