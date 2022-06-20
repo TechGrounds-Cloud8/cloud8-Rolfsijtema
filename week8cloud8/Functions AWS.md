@@ -72,7 +72,9 @@ Enterprices level: basic+dev+business + 15min SLA + TAM technical Account Manage
 
 TAM: specialized/monitoring technical account managers.  
 
-The Well-Architected framework has pillars and these pillars are Operational - - Excellence
+The Well-Architected framework has pillars and these pillars are Operational 
+
+- Excellence
 - Security
 - Reliability
 - Performance Efficiency
