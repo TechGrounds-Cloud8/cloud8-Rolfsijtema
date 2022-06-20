@@ -54,10 +54,32 @@ CloudWatch alarms: perform actions if the value of your metric has gone above or
 The CloudWatch dashboard: single location that can show all metrics of all ur applications. 
 Cloudtrail: records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. Events are typically updated in CloudTrail within 15 minutes after an API call.
 CloudTrail Insights: helps AWS users identify and respond to unusual activity associated with write API calls by continuously analyzing CloudTrail management events.
-AWS Trusted Advisor:PILLARS Cost optimization, Performance, security, Fault Tolerance, Service limits. 
+AWS Trusted Advisor: is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.5-PILLARS Cost optimization, Performance, security, Fault Tolerance, Service limits. 
+App-facing: Lambda & API gateway
+Free Tier: Always free or 12months free, trails  (s3 is free for 12months max 5gb)
+The AWS Pricing: Calculator lets you explore AWS services and create an estimate for the cost of your use cases on AWS. You can organize your AWS estimates by groups that you define. A group can reflect how your company is organized, such as providing estimates by cost center.When you have created an estimate, you can save it and generate a link to share it with others.
+Billing & cost management Dashboard: to pay your AWS bill, monitor your usage, and analyze and control your costs.
+Cost & Usage reports: via the dashboard you can make reports
+Consolidated billing: this feature of AWS Organizations enables you to receive a single bill for all AWS accounts in your organization, it's a free service. By consolidating, you can easily track the combined costs of all the linked accounts in your organization. The default maximum number of accounts allowed for an organization is 4, but you can contact AWS Support to increase your quota, if needed.On your monthly bill, you can review itemized charges incurred by each account. still one bill but detailed by each account. share bulk discount pricing, Savings Plans, and Reserved Instances.
+AWS Budgets: you can create budgets to plan your service usage, service costs, and instance reservations, also get a notification when budget is passed. By email. 
+AWS Cost explorer: is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time. Make reports and save them, You can apply custom filters and groups to analyze your data, up untill the hourly level. 
+BASIC SUpport: 24/7 customer service, Doc. whitepapers, AWS health-dashboard
+Developer Support: basic supp. + emailsupport. Best practice guidance, Client-side diagnostic tools
 
+Business support: basic+developer supp. + phone, infra event management. All AWS Trusted Advisor checks,Limited support for third-party software, such as common operating systems and application stack components, All AWS Trusted Advisor checks. all AWS Trusted Advisor checks!!!
 
+Enterprices level: basic+dev+business + 15min SLA + TAM technical Account Manager. Application architecture guidance,Infrastructure event management,
 
+TAM: specialized/monitoring technical account managers.  
 
+5 Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, cost optimization. 
 
-
+AWS Marketplace: is a curated digital catalog that makes it easy for customers to find, buy, deploy, and manage third-party software and services that customers need to build solutions and run their businesses
+AWS CAF: Cloud Adoption Framework: Looking at what is needed to Migrate there is made a CAF-Action-Plan that helps to guide your orginization for the cloud. 
+6-Core perspectives: Business, People, Governance, Platform, Security, Operations.
+Re-hosting: lift-and-shift: can save up to 30% on costs. involves moving applications without changes
+Re-platforming: lift, tinker, and shift,involves making a few cloud optimizations to realize a tangible benefit.
+Re-factoring/re-architecting: involves reimagining how an application is architected and developed by using cloud-native features.
+Re-purchasing: involves moving from a traditional license to a software-as-a-service model 
+Re-taining: consists of keeping applications that are critical for the business in the source environment. 
+Re-tiring: is the process of removing applications that are no longer needed
