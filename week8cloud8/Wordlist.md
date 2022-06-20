@@ -56,3 +56,18 @@ Packet: a unit of date send over the internet
 allocating: toewijzen
 resiliency: veerkrachtig
 descriptors: beschrijving, discribe
+Persist: Last, go on, aanhoudend. 
+incremental: toenemend
+Retention: Behouden
+versioning: versiebeheer
+Granular: Individual   parts. 
+Homoguenus: same type
+consolidation: making something stronger or more solid.
+mitigate: verlichten, verzachten
+sophisticated: Geraffineerde, wereldwijs
+estimate: schatten, schatting
+Capital expenditures: hoofd uitgaven
+Operational expenditures: gebruiks uitgaven
+ephemeral: Vluchtig, wipes data when you kill ur EC2. 
+App-facing services: the app between 1 application to another Application. For example: ALB Application Load Balancer. 
+Customer/client-facing services: the application that faces directly to the customer. for example: Elastic Load Balancer
