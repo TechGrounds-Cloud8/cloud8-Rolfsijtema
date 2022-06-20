@@ -72,7 +72,11 @@ Enterprices level: basic+dev+business + 15min SLA + TAM technical Account Manage
 
 TAM: specialized/monitoring technical account managers.  
 
-5 Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, cost optimization. 
+The Well-Architected framework has pillars and these pillars are Operational - - Excellence
+- Security
+- Reliability
+- Performance Efficiency
+- Cost Optimization.
 
 AWS Marketplace: is a curated digital catalog that makes it easy for customers to find, buy, deploy, and manage third-party software and services that customers need to build solutions and run their businesses
 AWS CAF: Cloud Adoption Framework: Looking at what is needed to Migrate there is made a CAF-Action-Plan that helps to guide your orginization for the cloud. 
@@ -82,4 +86,25 @@ Re-platforming: lift, tinker, and shift,involves making a few cloud optimization
 Re-factoring/re-architecting: involves reimagining how an application is architected and developed by using cloud-native features.
 Re-purchasing: involves moving from a traditional license to a software-as-a-service model 
 Re-taining: consists of keeping applications that are critical for the business in the source environment. 
-Re-tiring: is the process of removing applications that are no longer needed
+Re-tiring: is the process of removing applications that are no longer needed.
+Snow-Family: is a collection of physical devices that help to physically transport data up to: exabytes into the cloud. 
+AWS SnowCone: is a small, rugged, and secure edge computing and data transfer device. It got 2 CPUs, 4 GB of memory, and 8 TB of usable storage.
+AWS Snowball-Edge: Storage: 80 TB of hard disk drive (HDD) capacity for block volumes and Amazon S3 compatible object storage, and 1 TB of SATA solid state drive (SSD) for block volumes. Compute: 40 vCPUs, and 80 GiB of memory to support Amazon EC2 sbe1 instances (equivalent to C5).
+AWS: Snow-Mobile: is an exabyte-scale data transfer service used to move large amounts of data to AWS.You can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck.
+VMware Cloud: lift ur own VMware directly onto AWS via VMware-cloud
+Amazon Sage-Maker: build, deploy, machine learning at scale, custom models. 
+Amazon A2I: Augumented EI. 
+Amazon LEX: the heart of Alexa, interactive chatbots (ready to go)
+Amazon Textract: Extracting text and data from documents. 
+AWS Deepracer: Experiment with machinelearning. Internet of things
+AWS Groundstation: have your own satellite? Ground Station and only pay for the satellite time you actually need?
+AWS Training and Certification offers training classes on many of these technologies already, and every month, AWS seems to release something even better for us to talk about. Innovate with AWS Services
+
+When examining how to use AWS services, it is important to focus on the desired outcomes. You are properly equipped to drive innovation in the cloud if you can clearly articulate the following conditions: 
+
+The current state
+The desired state
+The problems you are trying to solve
+
+Consider some of the paths you might explore in the future as you continue on your cloud journey. 
+
