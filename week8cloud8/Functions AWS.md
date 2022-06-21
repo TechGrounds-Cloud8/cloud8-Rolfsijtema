@@ -177,4 +177,31 @@ EBS is storage on the EC2 (elastic block storage)
 Storage types: 
 Block storage: (EBS) virtual HD in the cloud, internal or network attached. 
 File storage: (corporate dir) Mount filesystem to ur OS using networkshare 
-Object storage: container, massive scalable, low cost, uses REST API, reacts on Codes. ideal for automating
+Object storage: container, massive scalable, low cost, uses REST API, reacts on Codes. ideal for automating 
+DynamoDB: non relational DB, very fast
+SQL, mySQL, postSQL, Graph Database sees realations between databases. 
+RDS can carry, manage, patch, update OS, resize a database but also replicate a database to diffirent AZ's helps with disaster discovery.
+Serverless Lambda: upload code to lambda and run it. No server to manage, pay only when code runs, scales automatically. can be low cost. 
+Redshift: data wharehouse, ideal for analytics
+EMR elastic Map Reduce, Rekognition of details, celebs, smile, mountinbike. 
+High available due to AUto Scaling,  when instance failes it creates automatically new instances. Cloudwatch helps monitoring this. 
+Benefits: scale on actual load, auto recovery when EC2 fail's. auto direct users to healty EC2's. 
+Automation: efficientie: 
+Elastic beanstalk: developers can upload a code that includes everything from building EC2, startup nodeJS, It has presets for example: high availability, that will auto include Autoscale and ELBalancing.  PaaS. 
+Cloudformation: make template files with codes of a infrastructures, build as a code. Easy to copy ur setup to another region. 
+
+6 Advantages of Cloud Computing:
+1 Trade capital Expense for Variable expense capex - opex
+2 Benefit from massive economy's of scale
+3 Stop guessing capacity (utilization,ongebruikt)
+4 Increase speed and Agility (agile is speed to react to change)
+5 Stop spending money on maintaining datacenter, put money in devops
+6 Go Global in minutes, 24regions, deploy code straith away. 
+
+Usecases
+Cloud Bursting: burst temp, into a cloud
+Cloud backup/archive
+Streaming Data & analytics, easy to setup services to collect and analize data. 
+Serverless workflows are easy to build and run as Lambda Functions
+Audio and video streaming: Data from S3 buckets cache data to edge locations 
+
