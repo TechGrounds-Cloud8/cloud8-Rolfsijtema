@@ -205,3 +205,41 @@ Streaming Data & analytics, easy to setup services to collect and analize data.
 Serverless workflows are easy to build and run as Lambda Functions
 Audio and video streaming: Data from S3 buckets cache data to edge locations 
 
+Businesscases:
+1 Benefits and options for the company (overlook old systems against Cloud)
+2 Cost evaluation (TCO, total cost ownership)
+3 Migration Methods: Tools, 6r's
+- Rehosting: programmas bekijken en wat ermee doen? onderlinge structuurn
+- replatforming: SQL running on microsoft, into cloud on RDS
+- Repurchasing: move to diffirent products, legacy software to modern
+- refactoring: breakup systems and put them in diffirent parts for relaibility
+- Retire: say goodbye to old forgotten systems
+- retain: some applications stay on premesis if they can't go into the cloud. 
+
+Migration Tools:
+- DMS Database Migration service: Migrate from on-premesis to cloud, or to another  model. From Oracle to Redshift is done for you. AUrora on RDS.
+SMS Server Migration Service: install the connector and the migration service create a volume on EBS (El Block storage) and than you can create a EC2 from this volume. 
+Data Sync: DataSync agent connects to ur storagesystem, schedules automated datatransfer with TLS-encryption to for example: S3, FSX(windows) or Elastic file System. 
+Large volumes: AWS snowball terrabytes (80), snowmobile exabytes. 
+
+Trusted Advisor: in order to get full operation of Trusted Advisor you need to unlock all features by adapting to:  Business or enterprice supportplan. 
+
+Higher level managed Services: 
+RDS: managed OS and Database (no patching, maintain, update, backup)
+Simple Storage Service: fully managed storage, copy to regions. 
+Lambda: fully managed compute: code running OS. 
+Additional benefits of managed services. 
+Lower operational costs.
+Reduce cost for activities
+Minimize downtime. 99.99
+efficiency & security
+
+Security in the cloud
+- Compliance programs global
+- Compliance services 
+- AWS Orginizations: apply policies to accounts to prevent people from doing activities in a account. 
+- GardDuty: managed threath-detection
+- AWS config: ideal for compliance, put rules and monitor passwords/buckets, send notes when things are outdated. 
+- Cloudtrail: trails all API calls on userlevel. 
+- AWS SHield: minitiate DDoS attacks.  
+- KMS: key management system.  create encryptionkeys. 
