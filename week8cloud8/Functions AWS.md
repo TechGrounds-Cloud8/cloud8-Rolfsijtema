@@ -1,12 +1,12 @@
 Direct Connect: EFS uses direct connect with on-premesis
 Macie: Discover & protect youre sensitive data at Scale
-Cloudfront: 
+Cloudfront:  web service that speeds up distribution of your static and dynamic web content, such as . html, . css, . js, and image files, to your users.
 Code Commit: Managed source control System
 Route 53: DNS server, latency based routing, register DNS in Route 53. 
 EBS: Elastic Block Store, data remains when EC2 is terminated
 EBS Snapshots: is an incremental backup, Toenemend.  16Tibite, connect via 1 AZ 
 EFS: Elastic File System: Linux File system, regional, auto scales, connect via: Regions
-Hypervisor: run's EC2
+Hypervisor: part that make everything virtual, runs ECS or appl
 S3: Amazon Simple Storage Service  1bucket= 5TB max  99.99999999% durability
 Lifecycle Policies: moves data automaticly to deeper storage classes when used less...
 Object Keys: are unique identifiers of the data placed in the s3 buckets
@@ -41,20 +41,30 @@ Artifact: a service that provides on-demand access to AWS security and complianc
 Health Insurance Portability and Accountability Act (HIPAA).
 Customer Compliance Center: contains resources to help you learn more about AWS compliance. An auditing security checklist, An overview of AWS risk and compliance, AWS answers to key compliance questions.
 DDoS: DA denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users. SlOWLORIS ATTACK, HTTP-ATTACK, UPD-FLOOD.
+
 Security Groups: help to prevent DDoS. by selective traffic settings
 Elastic Load Balancers also help, they handle traffic
 WAF: Web Application Firewall, lets you monitor network requests that come into your web applications. 
+
 AWS Shield Standard: auto protect without any costs. 
 AWS Shield Advanced; level of protection, is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks. 
+
 AWS KMS: Key Management Service: You can use AWS KMS to create, manage, and use cryptographic keys. You can also control the use of keys across a wide range of services and in your applications.
+
 Amazon Inspector: Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
+
 Amazon GuardDuty: is a service that provides intelligent threat detection for your AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
+
 Cloudwatch: is a web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics. 
 CloudWatch alarms: perform actions if the value of your metric has gone above or below a predefined threshold. Get a note when alarms triggered
+
 The CloudWatch dashboard: single location that can show all metrics of all ur applications. 
+
 Cloudtrail: records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. Events are typically updated in CloudTrail within 15 minutes after an API call.
 CloudTrail Insights: helps AWS users identify and respond to unusual activity associated with write API calls by continuously analyzing CloudTrail management events.
+
 AWS Trusted Advisor: is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.5-PILLARS Cost optimization, Performance, security, Fault Tolerance, Service limits. 
+Lambda: 
 App-facing: Lambda & API gateway
 Free Tier: Always free or 12months free, trails  (s3 is free for 12months max 5gb)
 The AWS Pricing: Calculator lets you explore AWS services and create an estimate for the cost of your use cases on AWS. You can organize your AWS estimates by groups that you define. A group can reflect how your company is organized, such as providing estimates by cost center.When you have created an estimate, you can save it and generate a link to share it with others.
@@ -70,6 +80,12 @@ Business support: basic+developer supp. + phone, infra event management. All AWS
 
 Enterprices level: basic+dev+business + 15min SLA + TAM technical Account Manager. Application architecture guidance,Infrastructure event management,
 
+S3: HTTP code 
+200: Succesfull uploads
+300: re-direction
+400: Client error
+500: server Error. 
+
 TAM: specialized/monitoring technical account managers.  
 
 The Well-Architected framework has pillars and these pillars are Operational 
@@ -78,7 +94,7 @@ The Well-Architected framework has pillars and these pillars are Operational
 - Security
 - Reliability
 - Performance Efficiency
-- Cost Optimization.
+- Cost Optimization
 
 AWS Marketplace: is a curated digital catalog that makes it easy for customers to find, buy, deploy, and manage third-party software and services that customers need to build solutions and run their businesses
 AWS CAF: Cloud Adoption Framework: Looking at what is needed to Migrate there is made a CAF-Action-Plan that helps to guide your orginization for the cloud. 
@@ -110,3 +126,55 @@ The problems you are trying to solve
 
 Consider some of the paths you might explore in the future as you continue on your cloud journey. 
 
+Advantages of cloud computing
+
+- Trade upfront expense for variable expense.
+Upfront expenses include data centers, physical servers, and other resources that you would need to invest in before using computing resources. 
+
+- Benefit from massive economies of scale.
+By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers aggregates in the cloud, providers such as AWS can achieve higher economies of scale. Economies of scale translate into lower pay-as-you-go prices.
+
+- Stop guessing capacity.
+With cloud computing, you don’t have to predict how much infrastructure capacity you will need before deploying an application
+
+- Increase speed and agility.
+The flexibility of cloud computing makes it easier for you to develop and deploy applications.
+
+- Stop spending money running and maintaining data centers.
+Cloud computing in data centers often requires you to spend more money and time managing infrastructure and servers
+
+- Go global in minutes.
+The AWS Cloud global footprint enables you to quickly deploy applications to customers around the world, while providing them with low latency
+
+Dedecated Host: An Amazon EC2 Dedicated Host is a physical server fully dedicated for your use.flexibility and cost effectiveness of using your own licenses.
+
+**DIGITAL CLOUD**
+
+AWS Config: 
+IAM: is global!
+Cost Management: show the overall cost of EC2 
+Budgets: setup budgets and get notes when exeded
+Billing preferences: compare departments
+Look at cost per application, number of requests, read data
+VPC: virtual private cloud,  in a VPC deploy ur resources
+Elasticy: system is ready to receive lots of sudden data. 
+Legacy IT, is the old model of IT compare to AWS/cloud computing
+Elastisearch: Elasticsearch is a distributed search and analytics engine built on Apache Lucene.
+Private cloud: VMware Microsoft, RedHat, openstack
+Public cloud: AWS, Azure, google cloud
+Hybrid cloud: combination of on premises and privatecloud. 
+Multicloud: 2 or more public clouds at the same time. 
+IaaS: Install ur application on it, heaving a room in a hotel. 
+Paas: all you manage is the data and codes  Elastic Beanstalk
+SaaS: software as service: all you need to do is create an account, and use the software as a service. 
+In a private model you have to manage everything urself. 
+Scaling out: vertical: more Virtual Machines
+Scaling UP: same EC2 but more CPU more memory, faster VMachines
+Database Scaling out: spread the Dataload
+fault tolerance: built in redundancy, more CPU's more HD's make sure everything keeps on running
+EC2: OS of EC2 are AMI machine images (you can choose serveral services)
+EBS is storage on the EC2 (elastic block storage)
+Storage types: 
+Block storage: (EBS) virtual HD in the cloud, internal or network attached. 
+File storage: (corporate dir) Mount filesystem to ur OS using networkshare 
+Object storage: container, massive scalable, low cost, uses REST API, reacts on Codes. ideal for automating
