@@ -1,6 +1,6 @@
 Resources: Bronnen, programma;s 
-Front-end:
-Back-end:
+Front-end:Een front-end developer ontwerpt en bouwt het zichtbare gedeelte, oftewel de gebruikersinterface van een app, site of systeem.
+Back-end: de back-end ontwikkelaar concentreert zich op de werking ervan.
 Provisioning: Opzetten van infrastructure for: servers, users, networks, etc...
 Container: Pakage for Code   (Fargate)
 Clusters: Combination of Containers
@@ -16,11 +16,11 @@ Pattern: vergelijken
 Sequential: opvolgende handelingen 
 Workload: amount of work, or work that is expected
 Adressing: aanspreken
-Undiffirentiated: niet gescheiden, ongenuanceerd, undivided
+Undiffirentiated: geen onderscheid, ongenuanceerd, undivided
 Upfront expense: physical parts< servers, data-centers, you need to invest before you can start. 
 aggregate: samenvoegen, totaal, opeenstapelen
 agility: wendbaarheid, adopt quickly to market changes
-Abbrieviated: afgekort
+Abbrieviated: afgekort short brieving
 Iaas: infrastructure as a service, building blocks
 Paas: platform as a service,  removes the need to manage infrastructures like: OS, hardware, capacity planning, maintaining, patching
 Saas: Software as a Service: End-users don't have to worry about underlaying infra, just use webmail, dont build it or under it. 
@@ -39,11 +39,11 @@ Provide: Make available
 Common task: Gemeenschappelijke taak
 Complete: accomplish, afmaken, do . 
 Credential: referentie
-Artifact in AWS: 
+Artifact in AWS: your go-to, central resource for compliance-related information that matters to you.
 Overhead: business costs that are related to the day-to-day running of the business
 Sole: Sole means not shared with others
 utilization: gebruik, benutting
-underutilized: ongebruikt
+underutilized: ongebruikt, overbodig
 Denial: ontkennen
 DDoS: distributed denial of service 
 refactoring: andere vorm geven 
@@ -52,7 +52,7 @@ Obtain: get, gain voordelen krijgen
 gather: bijeenkomen, assemble
 establish: vestigen
 Parameter: De stand van de lichtknop is bijvoorbeeld een parameter van het lichtsysteem in de kamer.
-Packet: a unit of date send over the internet
+Packet: a unit of data send over the internet
 allocating: toewijzen
 resiliency: veerkrachtig
 descriptors: beschrijving, discribe
@@ -60,7 +60,7 @@ Persist: Last, go on, aanhoudend.
 incremental: toenemend
 Retention: Behouden
 versioning: versiebeheer
-Granular: Individual   parts. 
+Granular: Individual parts.
 Homoguenus: same type
 consolidation: making something stronger or more solid.
 mitigate: verlichten, verzachten
