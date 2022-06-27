@@ -1,6 +1,5 @@
-x = 555
-y = 888
-z = (x+y)  
-print(x)
-print(y)
-print(z)
+Myvar = "Rolf"
+print("Hello, " + Myvar + "!")
+
+Name = "Rolf"
+print("Hello, " + Name + "!")
