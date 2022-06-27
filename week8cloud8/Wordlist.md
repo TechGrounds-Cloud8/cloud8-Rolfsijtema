@@ -7,8 +7,8 @@ Clusters: Combination of Containers
 Batch processing: can be a mix of processes that has to be done, (not just 1 batch/list)
 Event Source: Name of software that logs the event. 
 Proximity: Nearness, nabij, in de buurt van. 
-Redundent: meerdere systemen, overtollige force of compute  1 valt uit  andere vangt op. 
-Heavy Lifting: 
+Redundent: meerdere systemen, meer dan voldoende capaciteit / force of compute  1 valt uit  andere vangt op. 
+Heavy Lifting: undifferentiated heavy lifting: all of the hard IT work that companies do that doesn't add value to the mission of the company.
 Monolitic Applications: combination of database, servers, UI,  BUT! if one fail's the rest stops. 
 Microservers: puts all applications in a "loose copeling" , so if 1 fail's the rest may continiue. 
 Expedite: action or Process
@@ -29,7 +29,7 @@ Patching: oplappen, updaten, fouten oplossen.
 Vertical scaling: making more EC2 instances, opstapelen! (auto scale)
 Deployments /deploy: setting up a new computer, or system, make it ready to work in live enviroment. 
 Statement: Uitspraak, verklaring, stelling
-Consists: bestaat uit 
+Consists: it have to consist, moet bestaan uit. 
 considered: in acht nemen, moet onderdeel zijn van.
 Content: Inhoud
 On-premesis: Physical computer network, "local computers, software" 
@@ -39,10 +39,9 @@ Provide: Make available
 Common task: Gemeenschappelijke taak
 Complete: accomplish, afmaken, do . 
 Credential: referentie
-Artifact in AWS: your go-to, central resource for compliance-related information that matters to you.
 Overhead: business costs that are related to the day-to-day running of the business
 Sole: Sole means not shared with others
-utilization: gebruik, benutting
+utilization: gebruik, nuttig
 underutilized: ongebruikt, overbodig
 Denial: ontkennen
 DDoS: distributed denial of service 
@@ -71,3 +70,4 @@ Operational expenditures: gebruiks uitgaven
 ephemeral: Vluchtig, wipes data when you kill ur EC2. 
 App-facing services: the app between 1 application to another Application. For example: ALB Application Load Balancer. 
 Customer/client-facing services: the application that faces directly to the customer. for example: Elastic Load Balancer
+Asses: beoordelen

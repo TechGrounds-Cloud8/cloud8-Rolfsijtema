@@ -254,9 +254,16 @@ Amazon Polly is a service that turns text into lifelike speech, allowing you to 
 
 Amazon Athena: is a service that enables data analysts to perform interactive queries in the web-based cloud storage service, Amazon Simple Storage Service (S3)
 
-HMS: AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud. 
+HSM: Hardware-Security-Model.  AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud. 
 
 ETL: As The ETL definition suggests that ETL is nothing but Extract,Transform and loading of the data;This process needs to be used in data warehousing widely. The simple example of this is managing sales data in shopping mall
 
+Cost calculator: make a schatting what it cost to have, ec2+bla+bla.. There is even a API to add cost/pricelist via API. 
+
+Arm development tools for IoT: (Internet of Things) Machine learning, and embedded applications. Arm Compilers, Fixed Virtual Platforms, and other development tools targeting Cortex-M are available to get started quickly. The
+
 Document storage in AWS: answer Document DB
 Terraform: you can use to communicate between diffirent types of Clouds. 
+
+**Databases**
+Aurora RDS, easy scale, flat predictable traffic. consisten traffic
